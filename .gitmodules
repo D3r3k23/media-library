@@ -1,0 +1,3 @@
+[submodule "kometa"]
+	path = kometa
+	url = https://github.com/D3r3k23/kometa-config
