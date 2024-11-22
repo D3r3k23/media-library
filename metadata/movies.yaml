@@ -1,0 +1,938 @@
+metadata:
+  "3:10 to Yuma (2007)":
+    match:
+      title:
+      - 3:10 to Yuma
+      - 3:10 to Yuma (2007)
+      year: 2007
+    original_title: 3:10 to Yuma
+    title: 3:10 to Yuma (2007)
+  "Airplane!":
+    match:
+      title: Airplane!
+      year: 1980
+    sort_title: Airplane 01
+  "Airplane II: The Sequel":
+    match:
+      title: "Airplane II: The Sequel"
+      year: 1982
+    sort_title: Airplane 02
+  "The Alamo (2004)":
+    match:
+      title:
+      - The Alamo
+      - The Alamo (2004)
+      year: 2004
+    original_title: The Alamo
+    title: The Alamo (2004)
+  "Alien":
+    match:
+      title: Alien
+      year: 1979
+    sort_title: Alien 01
+  "Aliens - Special Edition":
+    match:
+      title: Aliens
+      year: 1986
+      edition: Special Edition
+    sort_title: Alien 02a
+  "Aliens - Theatrical Cut":
+    match:
+      title: Aliens
+      year: 1986
+      edition: Theatrical Cut
+    sort_title: Alien 02b
+  "Alien³":
+    match:
+      title:
+      - "Alien³"
+      - Alien3
+      year: 1992
+    title: "Alien³"
+    sort_title: Alien 03
+  "Alien: Resurrection":
+    match:
+      title:
+      - Alien Resurrection
+      - "Alien: Resurrection"
+      year: 1997
+    title: "Alien: Resurrection"
+    sort_title: Alien 04
+  "Alien vs. Predator":
+    match:
+      title:
+      - Alien vs. Predator
+      - "AVP: Alien vs. Predator"
+      year: 2004
+    title: Alien vs. Predator
+    sort_title: Alien 05
+  # "Aliens vs. Predator: Requiem":
+  #   match:
+  #     title: "Aliens vs. Predator: Requiem"
+  #     year: 2007
+  #   sort_title: Alien 06
+  "Alien: Covenant":
+    match:
+      title: "Alien: Covenant"
+      year: 2017
+    sort_title: Alien 07
+  # "Alien: Romulus":
+  #   match:
+  #     title: "Alien: Romulus"
+  #     year: 2024
+  #   sort_title: Alien 08
+  "Animal House":
+    match:
+      title:
+      - Animal House
+      - National Lampoon's Animal House
+      year: 1978
+    original_title: National Lampoon's Animal House
+    title: Animal House
+  "Austin Powers: International Man of Mystery":
+    match:
+      title: "Austin Powers: International Man of Mystery"
+      year: 1997
+    sort_title: Austin Powers 01
+  "Austin Powers: The Spy Who Shagged Me":
+    match:
+      title: "Austin Powers: The Spy Who Shagged Me"
+      year: 1999
+    sort_title: Austin Powers 02
+  "Austin Powers in Goldmember":
+    match:
+      title: Austin Powers in Goldmember
+      year: 2002
+    sort_title: Austin Powers 03
+  "Avatar":
+    match:
+      title: Avatar
+      year: 2009
+    sort_title: Avatar 01
+  "Avatar: The Way of Water":
+    match:
+      title: "Avatar: The Way of Water"
+      year: 2022
+    sort_title: Avatar 02
+  "The Avengers":
+    match:
+      title: The Avengers
+      year: 2012
+    sort_title: Avengers 01
+  "Avengers: Age of Ultron":
+    match:
+      title: "Avengers: Age of Ultron"
+      year: 2015
+    sort_title: Avengers 02
+  "Avengers: Infinity War":
+    match:
+      title: "Avengers: Infinity War"
+      year: 2018
+    sort_title: Avengers 03
+  "Avengers: Endgame":
+    match:
+      title: "Avengers: Endgame"
+      year: 2019
+    sort_title: Avengers 04
+  "Back to the Future: Part II":
+    match:
+      title:
+      - Back to the Future Part II
+      - "Back to the Future: Part II"
+      year: 1989
+    title: "Back to the Future: Part II"
+  "Back to the Future: Part III":
+    match:
+      title:
+      - Back to the Future Part III
+      - "Back to the Future: Part III"
+      year: 1990
+    title: "Back to the Future: Part III"
+  "Batman Begins":
+    match:
+      title: Batman Begins
+      year: 2005
+    sort_title: Batman 01
+  "The Batman":
+    match:
+      title: The Batman
+      year: 2022
+    sort_title: Batman 02
+  # "The Batman: Part II":
+  #   match:
+  #     title: Batman
+  #     year: 2026
+  #   sort_title: Batman 03
+  "Battle: Los Angeles":
+    match:
+      title:
+      - Battle Los Angeles
+      - "Battle: Los Angeles"
+      year: 2011
+    title: "Battle: Los Angeles"
+  "Bill & Ted's Excellent Adventure":
+    match:
+      title: Bill & Ted's Excellent Adventure
+      year: 1989
+    sort_title: Bill & Ted 01
+  "Bill & Ted's Bogus Journey":
+    match:
+      title: Bill & Ted's Bogus Journey
+      year: 1991
+    sort_title: Bill & Ted 02
+  "Bill & Ted Face the Music":
+    match:
+      title: Bill & Ted Face the Music
+      year: 2020
+    sort_title: Bill & Ted 03
+  "The Bourne Identity":
+    match:
+      title: The Bourne Identity
+      year: 2002
+    sort_title: Bourne 01
+  "The Bourne Supremacy":
+    match:
+      title: The Bourne Supremacy
+      year: 2004
+    sort_title: Bourne 02
+  "The Bourne Ultimatum":
+    match:
+      title: The Bourne Ultimatum
+      year: 2007
+    sort_title: Bourne 03
+  "The Bourne Legacy":
+    match:
+      title: The Bourne Legacy
+      year: 2012
+    sort_title: Bourne 04
+  "Captain America: The First Avenger":
+    match:
+      title: "Captain America: The First Avenger"
+      year: 2011
+    sort_title: Captain America 01
+  "Captain America: The Winter Soldier":
+    match:
+      title: "Captain America: The Winter Soldier"
+      year: 2014
+    sort_title: Captain America 02
+  "Captain America: Civil War":
+    match:
+      title: "Captain America: Civil War"
+      year: 2016
+    sort_title: Captain America 03
+  "Deadpool":
+    match:
+      title: Deadpool
+      year: 2016
+    sort_title: Deadpool 01
+  "Deadpool 2":
+    match:
+      title: Deadpool 2
+      year: 2018
+    sort_title: Deadpool 02
+  "Deadpool & Wolverine":
+    match:
+      title: Deadpool & Wolverine
+      year: 2024
+    sort_title: Deadpool 03
+  "Dune (1984)":
+    match:
+      title:
+        - Dune
+        - Dune (1984)
+      year: 1984
+    original_title: Dune
+    title: Dune (1984)
+    sort_title: Dune 00
+  "Dune: Part One":
+    match:
+      title:
+      - Dune
+      - "Dune: Part One"
+      year: 2021
+    original_title: Dune
+    title: "Dune: Part One"
+    sort_title: Dune 01
+  "Dune: Part Two":
+    match:
+      title: "Dune: Part Two"
+      year: 2024
+    sort_title: Dune 02
+  "The Fast and the Furious":
+    match:
+      title: The Fast and the Furious
+      year: 2001
+    sort_title: Fast & Furious 01
+  "The Fast and the Furious: Tokyo Drift":
+    match:
+      title: "The Fast and the Furious: Tokyo Drift"
+      year: 2006
+    sort_title: Fast & Furious 03
+  "Fast & Furious":
+    match:
+      title: Fast & Furious
+      year: 2009
+    sort_title: Fast & Furious 04
+  "Fast Five":
+    match:
+      title: Fast Five
+      year: 2011
+    sort_title: Fast & Furious 05
+  "Fast & Furious 6":
+    match:
+      title: Fast & Furious 6
+      year: 2013
+    sort_title: Fast & Furious 06
+  "The Fate of the Furious":
+    match:
+      title: The Fate of the Furious
+      year: 2017
+    sort_title: Fast & Furious 08
+  # "Fast X":
+  #   match:
+  #     title: Fast X
+  #     year: 2023
+  #   sort_title: Fast & Furious 10
+  "The Godfather: Part II":
+    match:
+      title:
+      - The Godfather Part II
+      - "The Godfather: Part II"
+      year: 1974
+    title: "The Godfather: Part II"
+  "The Godfather: Part III":
+    match:
+      title:
+      - The Godfather Part III
+      - "The Godfather: Part III"
+      year: 1990
+    title: "The Godfather: Part III"
+  "Godzilla":
+    match:
+      title: Godzilla
+      year: 2014
+    sort_title: Godzilla 01
+  "Godzilla Minus One":
+    match:
+      title: Godzilla Minus One
+      year: 2023
+    sort_title: Godzilla 02
+  "Godzilla: King of the Monsters":
+    match:
+      title: "Godzilla: King of the Monsters"
+      year: 2019
+    sort_title: Godzilla 03
+  "Godzilla vs. Kong":
+    match:
+      title: Godzilla vs. Kong
+      year: 2021
+    sort_title: Godzilla 04
+  "Godzilla x Kong: The New Empire":
+    match:
+      title: "Godzilla x Kong: The New Empire"
+      year: 2024
+    sort_title: Godzilla 05
+  "Harry Potter and the Sorcerer's Stone":
+    match:
+      title:
+      - "Harry Potter and the Sorcerer's Stone"
+      - "Harry Potter and the Philosopher's Stone"
+      year: 2001
+    sort_title: Harry Potter 01
+  "Harry Potter and the Chamber of Secrets":
+    match:
+      title: Harry Potter and the Chamber of Secrets
+      year: 2002
+    sort_title: Harry Potter 02
+  "Harry Potter and the Prisoner of Azkaban":
+    match:
+      title: Harry Potter and the Prisoner of Azkaban
+      year: 2004
+    sort_title: Harry Potter 03
+  "Harry Potter and the Goblet of Fire":
+    match:
+      title: Harry Potter and the Goblet of Fire
+      year: 2005
+    sort_title: Harry Potter 04
+  "Harry Potter and the Order of the Phoenix":
+    match:
+      title: Harry Potter and the Order of the Phoenix
+      year: 2007
+    sort_title: Harry Potter 05
+  "Harry Potter and the Half-Blood Prince":
+    match:
+      title: Harry Potter and the Half-Blood Prince
+      year: 2009
+    sort_title: Harry Potter 06
+  "Harry Potter and the Deathly Hallows: Part 1":
+    match:
+      title: "Harry Potter and the Deathly Hallows: Part 1"
+      year: 2010
+    sort_title: Harry Potter 07
+  "Harry Potter and the Deathly Hallows: Part 2":
+    match:
+      title: "Harry Potter and the Deathly Hallows: Part 2"
+      year: 2011
+    sort_title: Harry Potter 08
+  "The Hobbit: An Unexpected Journey":
+    match:
+      title: "The Hobbit: An Unexpected Journey"
+      year: 2012
+    sort_title: Hobbit 01
+  "The Hobbit: The Desolation of Smaug":
+    match:
+      title: "The Hobbit: The Desolation of Smaug"
+      year: 2013
+    sort_title: Hobbit 02
+  "The Hobbit: The Battle of the Five Armies":
+    match:
+      title: "The Hobbit: The Battle of the Five Armies"
+      year: 2014
+    sort_title: Hobbit 03
+  "The Hobbit: M4 Book Edit":
+    match:
+      title:
+      - The Hobbit M4 Book Edit
+      - The Hobbit - M4 Book Edit
+      - "The Hobbit: M4 Book Edit"
+    title: "The Hobbit: M4 Book Edit"
+    sort_title: Hobbit 04
+    year: 2014
+    originally_available: "2014-12-30"
+    content_rating: PG-13
+    director: Peter Jackson
+    studio: M4
+    country: [New Zealand, United States of America]
+    writer: [Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro, J.R.R. Tolkein]
+    producer: [Carolynne Cunningham, Peter Jackson, Fran Walsh, Zane Weiner]
+    genre: [Action, Adventure, Fantasy]
+    tagline: There and Back Again
+    summary: >-
+      A fan edit that combines Peter Jackson's The Hobbit trilogy into a more captivating
+      faithfully adapted single-movie experience.
+  "Indiana Jones and the Raiders of the Lost Ark":
+    match:
+      title:
+      - Raiders of the Lost Ark
+      - Indiana Jones and the Raiders of the Lost Ark
+      year: 1981
+    original_title: Raiders of the Lost Ark
+    title: Indiana Jones and the Raiders of the Lost Ark
+    sort_title: Indiana Jones 01
+  "Indiana Jones and the Temple of Doom":
+    match:
+      title: Indiana Jones and the Temple of Doom
+      year: 1984
+    sort_title: Indiana Jones 02
+  "Indiana Jones and the Last Crusade":
+    match:
+      title: Indiana Jones and the Last Crusade
+      year: 1989
+    sort_title: Indiana Jones 03
+  # "Indiana Jones and the Kingdom of the Crystal Skull":
+  #   match:
+  #     title: Indiana Jones and the Kingdom of the Crystal Skull
+  #     year: 2008
+  #   sort_title: Indiana Jones 04
+  # "Indiana Jones and the Dial of Destiny":
+  #   match:
+  #     title: Indiana Jones and the Dial of Destiny
+  #     year: 2023
+  #   sort_title: Indiana Jones 05
+  "The Italian Job (2003)":
+    match:
+      title:
+      - The Italian Job
+      - The Italian Job (2003)
+      year: 2003
+    original_title: The Italian Job
+    title: The Italian Job (2003)
+  "Kill Bill: Volume 1":
+    match:
+      title:
+      - "Kill Bill: Vol. 1"
+      - "Kill Bill: Volume 1"
+      year: 2003
+    title: "Kill Bill: Volume 1"
+  "Kill Bill: Volume 2":
+    match:
+      title:
+      - "Kill Bill: Vol. 2"
+      - "Kill Bill: Volume 2"
+      year: 2004
+    title: "Kill Bill: Volume 2"
+  "The Lord of the Rings: The Fellowship of the Ring":
+    match:
+      title: "The Lord of the Rings: The Fellowship of the Ring"
+      year: 2001
+    sort_title: Lord of the Rings 01
+  "The Lord of the Rings: The Two Towers":
+    match:
+      title: "The Lord of the Rings: The Two Towers"
+      year: 2002
+    sort_title: Lord of the Rings 02
+  "The Lord of the Rings: The Return of the King":
+    match:
+      title: "The Lord of the Rings: The Return of the King"
+      year: 2003
+    sort_title: Lord of the Rings 03
+  "Mad Max":
+    match:
+      title: Mad Max
+      year: 1979
+    sort_title: Mad Max 01
+  "Mad Max 2: The Road Warrior":
+    match:
+      title:
+      - Mad Max 2
+      - The Road Warrior
+      - "Mad Max 2: The Road Warrior"
+      year: 1981
+    original_title: Mad Max 2
+    title: "Mad Max 2: The Road Warrior"
+    sort_title: Mad Max 02
+  "Mad Max: Beyond Thunderdome":
+    match:
+      title:
+      - Mad Max 3
+      - Mad Max Beyond Thunderdome
+      - "Mad Max: Beyond Thunderdome"
+      year: 1985
+    title: "Mad Max: Beyond Thunderdome"
+    sort_title: Mad Max 03
+  "Mad Max: Fury Road":
+    match:
+      title: "Mad Max: Fury Road"
+      year: 2015
+    sort_title: Mad Max 04
+  "The Magnificent Seven (2016)":
+    match:
+      title:
+      - The Magnificent Seven
+      - The Magnificent Seven (2016)
+      year: 2016
+    original_title: The Magnificent Seven
+    title: The Magnificent Seven (2016)
+  "Mission: Impossible":
+    match:
+      title: "Mission: Impossible"
+      year: 1996
+    sort_title: "Mission: Impossible 01"
+  "Mission: Impossible II":
+    match:
+      title: "Mission: Impossible II"
+      year: 2000
+    sort_title: "Mission: Impossible 02"
+  "Mission: Impossible III":
+    match:
+      title: "Mission: Impossible III"
+      year: 2006
+    sort_title: "Mission: Impossible 03"
+  "Mission: Impossible - Ghost Protocol":
+    match:
+      title: "Mission: Impossible - Ghost Protocol"
+      year: 2011
+    sort_title: "Mission: Impossible 04"
+  "Mission: Impossible - Rogue Nation":
+    match:
+      title: "Mission: Impossible - Rogue Nation"
+      year: 2015
+    sort_title: "Mission: Impossible 05"
+  "Mission: Impossible - Fallout":
+    match:
+      title: "Mission: Impossible - Fallout"
+      year: 2018
+    sort_title: "Mission: Impossible 06"
+  "Mission: Impossible - Dead Reckoning Part One":
+    match:
+      title:
+      - "Mission: Impossible - Dead Reckoning"
+      - "Mission: Impossible - Dead Reckoning Part One"
+      year: 2023
+    original_title: "Mission: Impossible - Dead Reckoning"
+    title: "Mission: Impossible - Dead Reckoning Part One"
+    sort_title: "Mission: Impossible 07"
+  "Monty Python and the Holy Grail":
+      match:
+        title: Monty Python and the Holy Grail
+        year: 1975
+  "Monty Python's Life of Brian":
+      match:
+        title:
+        - Life of Brian
+        - Monty Python's Life of Brian
+        year: 1979
+      title: Monty Python's Life of Brian
+  "Monty Python's The Meaning of Life":
+      match:
+        title:
+        - The Meaning of Life
+        - Monty Python's The Meaning of Life
+        year: 1983
+      title: Monty Python's The Meaning of Life
+  "Mulholland Drive":
+    match:
+      title:
+      - Mulholland Drive
+      - "Mulholland Dr."
+      year: 2001
+    title: Mulholland Drive
+  "The Naked Gun: From the Files of Police Squad!":
+    match:
+      title:
+      - The Naked Gun
+      - "The Naked Gun: From the Files of Police Squad!"
+      year: 1988
+    title: "The Naked Gun: From the Files of Police Squad!"
+    sort_title: Naked Gun 01
+  "The Naked Gun 2½: The Smell of Fear":
+    match:
+      title:
+      - "The Naked Gun 2½: The Smell of Fear"
+      - "The Naked Gun 2 1/2: The Smell of Fear"
+      year: 1991
+    title: "The Naked Gun 2½: The Smell of Fear"
+    sort_title: Naked Gun 02
+  "Naked Gun 33⅓: The Final Insult":
+    match:
+      title:
+      - "Naked Gun 33⅓: The Final Insult"
+      - "Naked Gun 33 1/3: The Final Insult"
+      year: 1994
+    title: "Naked Gun 33⅓: The Final Insult"
+    sort_title: Naked Gun 03
+  "Ocean's Eleven":
+    match:
+      title: Ocean's Eleven
+      year: 2001
+    sort_title: Ocean's 01
+  "Ocean's Twelve":
+    match:
+      title: Ocean's Twelve
+      year: 2004
+    sort_title: Ocean's 02
+  "Ocean's Thirteen":
+    match:
+      title: Ocean's Thirteen
+      year: 2007
+    sort_title: Ocean's 03
+  "Pink Floyd: The Wall":
+    match:
+      title:
+      - "Pink Floyd: The Wall"
+      - Pink Floyd - The Wall
+      year: 1982
+    title: "Pink Floyd: The Wall"
+  "Pirates of the Caribbean: The Curse of the Black Pearl":
+    match:
+      title: "Pirates of the Caribbean: The Curse of the Black Pearl"
+      year: 2003
+    sort_title: Pirates of the Caribbean 01
+  "Pirates of the Caribbean: Dead Man's Chest":
+    match:
+      title: "Pirates of the Caribbean: Dead Man's Chest"
+      year: 2006
+    sort_title: Pirates of the Caribbean 02
+  "Pirates of the Caribbean: At World's End":
+    match:
+      title: "Pirates of the Caribbean: At World's End"
+      year: 2007
+    sort_title: Pirates of the Caribbean 03
+  # "Pirates of the Caribbean: On Stranger Tides":
+  #   match:
+  #     title: "Pirates of the Caribbean: On Stranger Tides"
+  #     year: 2011
+  #   sort_title: Pirates of the Caribbean 04
+  # "Pirates of the Caribbean: Dead Men Tell No Tales":
+  #   match:
+  #     title: "Pirates of the Caribbean: Dead Men Tell No Tales"
+  #     year: 2017
+  #   sort_title: Pirates of the Caribbean 05
+  "Rambo: First Blood":
+    match:
+      title:
+      - First Blood
+      - "Rambo: First Blood"
+      year: 1982
+    original_title: First Blood
+    title: "Rambo: First Blood"
+    sort_title: Rambo 01
+  "Rambo: First Blood Part II":
+    match:
+      title: "Rambo: First Blood Part II"
+      year: 1985
+    sort_title: Rambo 02
+  "Rambo III":
+    match:
+      title: "Rambo III"
+      year: 1988
+    sort_title: Rambo 03
+  "Star Trek: The Motion Picture":
+    match:
+      title: "Star Trek: The Motion Picture"
+      year: 1979
+    sort_title: Star Trek 01
+  "Star Trek II: The Wrath of Khan":
+    match:
+      title: "Star Trek II: The Wrath of Khan"
+      year: 1982
+    sort_title: Star Trek 02
+  "Star Trek III: The Search for Spock":
+    match:
+      title: "Star Trek III: The Search for Spock"
+      year: 1984
+    sort_title: Star Trek 03
+  "Star Trek IV: The Voyage Home":
+    match:
+      title: "Star Trek IV: The Voyage Home"
+      year: 1986
+    sort_title: Star Trek 04
+  "Star Trek V: The Final Frontier":
+    match:
+      title: "Star Trek V: The Final Frontier"
+      year: 1989
+    sort_title: Star Trek 05
+  "Star Trek VI: The Undiscovered Country":
+    match:
+      title: "Star Trek VI: The Undiscovered Country"
+      year: 1991
+    sort_title: Star Trek 06
+  "Star Trek: Generations":
+    match:
+      title: "Star Trek: Generations"
+      year: 1994
+    sort_title: Star Trek 07
+  "Star Trek: First Contact":
+    match:
+      title: "Star Trek: First Contact"
+      year: 1996
+    sort_title: Star Trek 08
+  "Star Trek: Insurrection":
+    match:
+      title: "Star Trek: Insurrection"
+      year: 1998
+    sort_title: Star Trek 09
+  "Star Trek: Nemesis":
+    match:
+      title: "Star Trek: Nemesis"
+      year: 2002
+    sort_title: Star Trek 10
+  # "Star Trek":
+  #   match:
+  #     title: Star Trek
+  #     year: 2009
+  #   sort_title: Star Trek 11
+  # "Star Trek Into Darkness":
+  #   match:
+  #     title: "Star Trek Into Darkness"
+  #     year: 2013
+  #   sort_title: Star Trek 12
+  # "Star Trek Beyond":
+  #   match:
+  #     title: "Star Trek Beyond"
+  #     year: 2016
+  #   sort_title: Star Trek 13
+  "Star Wars: Episode IV - A New Hope":
+    match:
+      title:
+      - Star Wars
+      - "Star Wars: Episode IV - A New Hope"
+      year: 1977
+    title: Star Wars
+    sort_title: Star Wars 01
+  "Star Wars: Episode V - The Empire Strikes Back":
+    match:
+      title:
+      - The Empire Strikes Back
+      - "Star Wars: Episode V - The Empire Strikes Back"
+      year: 1980
+    title: The Empire Strikes Back
+    sort_title: Star Wars 02
+  "Star Wars: Episode VI - Return of the Jedi":
+    match:
+      title:
+      - Return of the Jedi
+      - "Star Wars: Episode VI - Return of the Jedi"
+      year: 1983
+    title: Return of the Jedi
+    sort_title: Star Wars 03
+  "Star Wars: Episode I - The Phantom Menace":
+    match:
+      title: "Star Wars: Episode I - The Phantom Menace"
+      year: 1999
+    sort_title: Star Wars 04
+  "Star Wars: Episode II - Attack of the Clones":
+    match:
+      title: "Star Wars: Episode II - Attack of the Clones"
+      year: 2002
+    sort_title: Star Wars 05
+  "Star Wars: Episode III - Revenge of the Sith":
+    match:
+      title: "Star Wars: Episode III - Revenge of the Sith"
+      year: 2005
+    sort_title: Star Wars 06
+  # "Star Wars: The Force Awakens":
+  #   match:
+  #     title: "Star Wars: The Force Awakens"
+  #     year: 2015
+  #   sort_title: Star Wars 07
+  # "Star Wars: The Last Jedi":
+  #   match:
+  #     title: "Star Wars: The Last Jedi"
+  #     year: 2017
+  #   sort_title: Star Wars 08
+  # "Star Wars: The Rise of Skywalker":
+  #   match:
+  #     title: "Star Wars: The Rise of Skywalker"
+  #     year: 2019
+  #   sort_title: Star Wars 09
+  "Star Wars: The Clone Wars":
+    match:
+      title: "Star Wars: The Clone Wars"
+      year: 2008
+    sort_title: Star Wars 10
+  "TAK3N":
+    match:
+      title:
+      - TAK3N
+      - Taken 3
+      year: 2014
+    original_title: Taken 3
+    sort_title: Taken 3
+    title: TAK3N
+  "The Terminator":
+    match:
+      title: "The Terminator"
+      year: 1984
+    sort_title: Terminator 01
+  "Terminator 2: Judgment Day - Extended":
+    match:
+      title: "Terminator 2: Judgment Day"
+      year: 1991
+      edition: Extended Remastered
+    sort_title: Terminator 02a
+  "Terminator 2: Judgment Day - Theatrical":
+    match:
+      title: "Terminator 2: Judgment Day"
+      year: 1991
+      edition: Theatrical Cut
+    sort_title: Terminator 02b
+  "Terminator 3: Rise of the Machines":
+    match:
+      title: "Terminator 3: Rise of the Machines"
+      year: 2003
+    sort_title: Terminator 03
+  "Terminator: Salvation":
+    match:
+      title:
+      - Terminator Salvation
+      - "Terminator: Salvation"
+      year: 2009
+    title: "Terminator: Salvation"
+    sort_title: Terminator 04
+  # "Terminator: Genisys":
+  #   match:
+  #     title:
+  #     - Terminator Genisys
+  #     - "Terminator: Genisys"
+  #     year: 2015
+  #   title: "Terminator: Genisys"
+  #   sort_title: Terminator 05
+  # "Terminator: Dark Fate":
+  #   match:
+  #     title: "Terminator: Dark Fate"
+  #     year: 2019
+  #   sort_title: Terminator 06
+  "Thor":
+    match:
+      title: Thor
+      year: 2011
+    sort_title: Thor 01
+  "Thor: The Dark World":
+    match:
+      title: "Thor: The Dark World"
+      year: 2013
+    sort_title: Thor 02
+  "Thor: Ragnarok":
+    match:
+      title: "Thor: Ragnarok"
+      year: 2017
+    sort_title: Thor 03
+  "Total Recall (2012)":
+    match:
+      title:
+      - Total Recall
+      - Total Recall (2012)
+      year: 2012
+    original_title: Total Recall
+    title: Total Recall (2012)
+  "TRON":
+    match:
+      title:
+      - TRON
+      - Tron
+      year: 1982
+    title: TRON
+  "TRON: Legacy":
+    match:
+      title:
+      - "TRON: Legacy"
+      - "Tron: Legacy"
+      year: 2010
+    title: "TRON: Legacy"
+  "True Grit (2010)":
+    match:
+      title:
+      - True Grit
+      - True Grit (2010)
+      year: 2010
+    original_title: True Grit
+    title: True Grit (2010)
+  "Vacation":
+    match:
+      title:
+      - Vacation
+      - National Lampoon's Vacation
+      year: 1983
+    original_title: National Lampoon's Vacation
+    title: Vacation
+  "X-Men":
+    match:
+      title: X-Men
+      year: 2000
+    sort_title: X-Men 01
+  "X2: X-Men United":
+    match:
+      title:
+      - X2
+      - "X2: X-Men United"
+      year: 2003
+    sort_title: X-Men 02
+  "X-Men: The Last Stand":
+    match:
+      title:
+      - "X-Men: The Last Stand"
+      - "X3: The Last Stand"
+      - X-Men 3
+      year: 2006
+    sort_title: X-Men 03
+  "X-Men: First Class":
+    match:
+      title: "X-Men: First Class"
+      year: 2011
+    sort_title: X-Men 04
+  # "X-Men: Days of Future Past":
+  #   match:
+  #     title: "X-Men: Days of Future Past"
+  #     year: 2014
+  #   sort_title: X-Men 05
+  # "X-Men: Apocalypse":
+  #   match:
+  #     title: "X-Men: Apocalypse"
+  #     year: 2016
+  #   sort_title: X-Men 06
+  "X-Men Origins: Wolverine":
+    match:
+      title: "X-Men Origins: Wolverine"
+      year: 2009
+    sort_title: X-Men 07
