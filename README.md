@@ -14,6 +14,16 @@ library
 │    └─── shows
 ├─── images
 │    ├─── collections
+│    │    ├─── basic
+│    │    ├─── comedy
+│    │    ├─── decades
+│    │    ├─── formats
+│    │    ├─── genres
+│    │    ├─── networks
+│    │    ├─── people
+│    │    ├─── seasonal
+│    │    ├─── series
+│    │    └─── studios
 │    ├─── comedy
 │    ├─── movies
 │    ├─── overlays
@@ -25,24 +35,26 @@ library
 │    └─── shows
 ├─── kometa
 │    ├─── collections
+│    │    ├─── basic.yaml
 │    │    ├─── comedy.yaml
-│    │    ├─── common.yaml
+│    │    ├─── decades.yaml
+│    │    ├─── formats.yaml
 │    │    ├─── genres.yaml
-│    │    ├─── movies.yaml
+│    │    ├─── networks.yaml
+│    │    ├─── people.yaml
 │    │    ├─── prerolls.yaml
-│    │    ├─── shows.yaml
+│    │    ├─── seasonal.yaml
+│    │    ├─── series.yaml
+│    │    ├─── studios.yaml
 │    │    └─── templates.yaml
 │    ├─── overlays
 │    │    ├─── overlays.yaml
 │    │    └─── templates.yaml
 │    ├─── playlists
 │    │    └─── playlists.yaml
-│    └─── report
+│    ├─── report
+│    └─── config.yaml
 ├─── media
-│    ├─── kometa-dev
-│    │    ├─── comedy
-│    │    ├─── movies
-│    │    └─── shows
 │    ├─── library
 │    │    ├─── comedy
 │    │    ├─── movies
@@ -51,7 +63,12 @@ library
 │    │    ├─── comedy
 │    │    ├─── movies
 │    │    └─── shows
-│    ├─── staging
+│    ├─── temp
+│    │    ├─── comedy
+│    │    ├─── movies
+│    │    └─── shows
+│    ├─── test
+│    │    ├─── comedy
 │    │    ├─── movies
 │    │    └─── shows
 │    ├─── torrents
@@ -70,14 +87,22 @@ library
 │    ├─── comedy.yaml
 │    ├─── movies.yaml
 │    └─── shows.yaml
+├─── plex-trakt-sync
+│    └─── config.yaml
+├─── posterizarr
+│    └─── config.yaml
 ├─── prerolls
 ├─── scripts
 │    ├─── analyze.py
 │    ├─── copy_show_images.py
+│    ├─── directorize.py
 │    ├─── download.py
-│    └─── import_extras.py
+│    ├─── import_extras.py
+│    ├─── ls_empty_dirs.py
+│    └─── rm_empty_dirs.py
 ├─── subtitles
-│    ├─── movies
+│    ├─── comedy
 │    ├─── movies
 │    └─── shows
-└─── titlecardmaker
+└─── title-card-maker
+     └─── config.yaml
