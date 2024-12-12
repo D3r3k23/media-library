@@ -1,6 +1,10 @@
 # Media Library
 
-## Library Analysis
+## Scripts
+- Blank content_rating to NR
+- Unrated Edition to NR content_rating
+
+### Library Analysis
 - Check editions
 - Check images
 - (?) Check health
@@ -8,13 +12,14 @@
 
 ## Repository Guide
 ```
-library
-├─── extras
-│    ├─── movies
-│    └─── shows
+media-library
+├─── collexions
+│    └─── config.json
 ├─── images
 │    ├─── collections
 │    │    ├─── basic
+│    │    ├─── charts
+│    │    ├─── comedians
 │    │    ├─── comedy
 │    │    ├─── decades
 │    │    ├─── formats
@@ -32,55 +37,73 @@ library
 │    │    ├─── tags
 │    │    └─── video
 │    ├─── playlists
-│    └─── shows
+│    ├─── shows
+│    └─── watch
+│         └─── mediux
 ├─── kometa
 │    ├─── collections
-│    │    ├─── basic.yaml
-│    │    ├─── comedy.yaml
-│    │    ├─── decades.yaml
-│    │    ├─── formats.yaml
-│    │    ├─── genres.yaml
-│    │    ├─── networks.yaml
-│    │    ├─── people.yaml
-│    │    ├─── prerolls.yaml
-│    │    ├─── seasonal.yaml
-│    │    ├─── series.yaml
-│    │    ├─── studios.yaml
+│    │    ├─── basic
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── charts
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── comedy
+│    │    │    └─── comedians.yaml, comedy.yaml
+│    │    ├─── decades
+│    │    │    └─── decades.yaml
+│    │    ├─── formats
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── genres
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── networks
+│    │    │    └─── networks.yaml
+│    │    ├─── people
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── prerolls
+│    │    │    └─── prerolls.yaml
+│    │    ├─── seasonal
+│    │    │    └─── movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── series
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── studios
+│    │    │    └─── studios.yaml
+│    │    ├─── collectionless.yaml
 │    │    └─── templates.yaml
+│    ├─── labels
+│    │    ├─── audio.yaml
+│    │    ├─── editions.yaml
+│    │    ├─── favorites.yaml
+│    │    ├─── source.yaml
+│    │    ├─── tags.yaml
+│    │    ├─── templates.yaml
+│    │    └─── video.yaml
 │    ├─── overlays
-│    │    ├─── overlays.yaml
+│    │    ├─── both.yaml
+│    │    ├─── movies.yaml
+│    │    ├─── shows.yaml
 │    │    └─── templates.yaml
 │    ├─── playlists
 │    │    └─── playlists.yaml
-│    ├─── report
+│    ├─── reports
 │    └─── config.yaml
+├─── kometa-dev
+│    └─── *Same as above*
 ├─── media
+│    ├─── extras
+│    │    └─── comedy, movies, shows
 │    ├─── library
-│    │    ├─── comedy
-│    │    ├─── movies
-│    │    └─── shows
+│    │    └─── comedy, movies, shows
 │    ├─── recycle
-│    │    ├─── comedy
-│    │    ├─── movies
-│    │    └─── shows
+│    │    └─── movies, shows
 │    ├─── temp
-│    │    ├─── comedy
-│    │    ├─── movies
-│    │    └─── shows
+│    │    └─── comedy, movies, shows
 │    ├─── test
-│    │    ├─── comedy
-│    │    ├─── movies
-│    │    └─── shows
+│    │    └─── comedy, movies, shows
 │    ├─── torrents
-│    │    ├─── comedy
-│    │    ├─── movies
-│    │    ├─── shows
+│    │    ├─── movies, shows
 │    │    └─── torrent
 │    └─── usenet
 │         ├─── complete
-│         │    ├─── comedy
-│         │    ├─── movies
-│         │    └─── shows
+│         │    └─── movies, shows
 │         ├─── downloading
 │         └─── nzb
 ├─── metadata
@@ -92,14 +115,18 @@ library
 ├─── posterizarr
 │    └─── config.yaml
 ├─── prerolls
-├─── scripts
+├─── python
 │    ├─── analyze.py
-│    ├─── copy_show_images.py
-│    ├─── directorize.py
 │    ├─── download.py
 │    ├─── import_extras.py
+│    ├─── import_images.py
+│    ├─── import_subtitles.py
+│    └─── strip_metadata.py
+├─── scripts
+│    ├─── directorize.py
 │    ├─── ls_empty_dirs.py
-│    └─── rm_empty_dirs.py
+│    ├─── rm_empty_dirs.py
+│    └─── strip_metadata.py
 ├─── subtitles
 │    ├─── comedy
 │    ├─── movies
