@@ -1,4 +1,12 @@
 metadata:
+  "1984":
+    match:
+      title:
+      - "1984"
+      - Nineteen Eighty-Four
+      year: 1984
+    original_title: Nineteen Eighty-Four
+    title: "1984"
   "3:10 to Yuma (2007)":
     match:
       title:
@@ -35,13 +43,13 @@ metadata:
       title: Aliens
       year: 1986
       edition: Special Edition
-    sort_title: Alien 02a
+    sort_title: Alien 02A
   "Aliens - Theatrical Cut":
     match:
       title: Aliens
       year: 1986
       edition: Theatrical Cut
-    sort_title: Alien 02b
+    sort_title: Alien 02B
   "Alien³":
     match:
       title:
@@ -114,6 +122,11 @@ metadata:
       title: "Avatar: The Way of Water"
       year: 2022
     sort_title: Avatar 02
+  # "Avatar: Fire and Ash":
+  #   match:
+  #     title: "Avatar: Fire and Ash"
+  #     year: 2025
+  #   sort_title: Avatar 03
   "The Avengers":
     match:
       title: The Avengers
@@ -160,7 +173,7 @@ metadata:
     sort_title: Batman 02
   # "The Batman: Part II":
   #   match:
-  #     title: Batman
+  #     title: The Batman: Part II
   #     year: 2026
   #   sort_title: Batman 03
   "Battle: Los Angeles":
@@ -235,15 +248,6 @@ metadata:
       title: Deadpool & Wolverine
       year: 2024
     sort_title: Deadpool 03
-  "Dune (1984)":
-    match:
-      title:
-        - Dune
-        - Dune (1984)
-      year: 1984
-    original_title: Dune
-    title: Dune (1984)
-    sort_title: Dune 00
   "Dune: Part One":
     match:
       title:
@@ -258,6 +262,26 @@ metadata:
       title: "Dune: Part Two"
       year: 2024
     sort_title: Dune 02
+  "Dune (1984)":
+    match:
+      title:
+      - Dune
+      - Dune (1984)
+      year: 1984
+    original_title: Dune
+    title: Dune (1984)
+    sort_title: Dune 05
+  "Dune (Spicediver Cut)":
+    match:
+      title:
+      - Dune
+      - Dune (1984)
+      edition_contains: Spicediver
+      year: 1984
+    original_title: Dune
+    title: Dune (1984)
+    sort_title: Dune 06
+    genre: Fan Edit
   "The Fast and the Furious":
     match:
       title: The Fast and the Furious
@@ -283,11 +307,6 @@ metadata:
       title: Fast & Furious 6
       year: 2013
     sort_title: Fast & Furious 06
-  "The Fate of the Furious":
-    match:
-      title: The Fate of the Furious
-      year: 2017
-    sort_title: Fast & Furious 08
   # "Fast X":
   #   match:
   #     title: Fast X
@@ -307,31 +326,40 @@ metadata:
       - "The Godfather: Part III"
       year: 1990
     title: "The Godfather: Part III"
+  "Godzilla Minus One":
+    match:
+      title: Godzilla Minus One
+      year: 2023
+    sort_title: Godzilla 00
   "Godzilla":
     match:
       title: Godzilla
       year: 2014
     sort_title: Godzilla 01
-  "Godzilla Minus One":
-    match:
-      title: Godzilla Minus One
-      year: 2023
-    sort_title: Godzilla 02
   "Godzilla: King of the Monsters":
     match:
       title: "Godzilla: King of the Monsters"
       year: 2019
-    sort_title: Godzilla 03
+    sort_title: Godzilla 02
   "Godzilla vs. Kong":
     match:
       title: Godzilla vs. Kong
       year: 2021
-    sort_title: Godzilla 04
+    sort_title: Godzilla 03
   "Godzilla x Kong: The New Empire":
     match:
       title: "Godzilla x Kong: The New Empire"
       year: 2024
-    sort_title: Godzilla 05
+    sort_title: Godzilla 04
+  "Guy Ritchie's The Covenant":
+    match:
+      title:
+      - The Covenant
+      - "Guy Ritchie's the Covenant"
+      - "Guy Ritchie's The Covenant"
+      year: 2023
+    original_title: The Covenant
+    title: "Guy Ritchie's The Covenant"
   "Harry Potter and the Sorcerer's Stone":
     match:
       title:
@@ -400,12 +428,14 @@ metadata:
     year: 2014
     originally_available: "2014-12-30"
     content_rating: PG-13
+    audience_rating: 8.0
+    critic_rating: 6.2
     director: Peter Jackson
-    studio: M4
+    studio: New Line Cinema
     country: [New Zealand, United States of America]
     writer: [Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro, J.R.R. Tolkein]
     producer: [Carolynne Cunningham, Peter Jackson, Fran Walsh, Zane Weiner]
-    genre: [Action, Adventure, Fantasy]
+    genre: [Action, Adventure, Fantasy, High Fantasy, Dragons, Sword & Sorcery, Fan Edit]
     tagline: There and Back Again
     summary: >-
       A fan edit that combines Peter Jackson's The Hobbit trilogy into a more captivating
@@ -543,15 +573,20 @@ metadata:
       title: "Mission: Impossible - Fallout"
       year: 2018
     sort_title: "Mission: Impossible 06"
-  "Mission: Impossible - Dead Reckoning Part One":
+  "Mission: Impossible - Dead Reckoning":
     match:
       title:
       - "Mission: Impossible - Dead Reckoning"
       - "Mission: Impossible - Dead Reckoning Part One"
       year: 2023
-    original_title: "Mission: Impossible - Dead Reckoning"
-    title: "Mission: Impossible - Dead Reckoning Part One"
+    original_title: "Mission: Impossible - Dead Reckoning Part One"
+    title: "Mission: Impossible - Dead Reckoning"
     sort_title: "Mission: Impossible 07"
+  # "Mission: Impossible - The Final Reckoning":
+  #   match:
+  #     title: "Mission: Impossible - The Final Reckoning"
+  #     year: 2025
+  #   sort_title: "Mission: Impossible 08"
   "Monty Python and the Holy Grail":
       match:
         title: Monty Python and the Holy Grail
@@ -601,6 +636,22 @@ metadata:
       year: 1994
     title: "Naked Gun 33⅓: The Final Insult"
     sort_title: Naked Gun 03
+  "National Lampoon's Vacation":
+    match:
+      title:
+      - Vacation
+      - National Lampoon's Vacation
+      year: 1983
+    title: National Lampoon's Vacation
+    sort_title: National Lampoon 01
+  "National Lampoon's Christmas Vacation":
+    match:
+      title:
+      - Christmas Vacation
+      - National Lampoon's Christmas Vacation
+      year: 1989
+    title: National Lampoon's Christmas Vacation
+    sort_title: National Lampoon 02
   "Ocean's Eleven":
     match:
       title: Ocean's Eleven
@@ -648,6 +699,26 @@ metadata:
   #     title: "Pirates of the Caribbean: Dead Men Tell No Tales"
   #     year: 2017
   #   sort_title: Pirates of the Caribbean 05
+  "Predator":
+    match:
+      title: Predator
+      year: 1987
+    sort_title: Predator 01
+  "Predator 2":
+    match:
+      title: Predator 2
+      year: 1990
+    sort_title: Predator 02
+  "Predators":
+    match:
+      title: Predators
+      year: 2010
+    sort_title: Predator 03
+  # "The Predator":
+  #   match:
+  #     title: The Predator
+  #     year: 2018
+  #   sort_title: Predator 04
   "Rambo: First Blood":
     match:
       title:
@@ -664,9 +735,39 @@ metadata:
     sort_title: Rambo 02
   "Rambo III":
     match:
-      title: "Rambo III"
+      title: Rambo III
       year: 1988
     sort_title: Rambo 03
+  "Rambo":
+    match:
+      title: Rambo
+      year: 2008
+    sort_title: Rambo 04
+  "Rambo: Last Blood":
+    match:
+      title: "Rambo: Last Blood"
+      year: 2019
+    sort_title: Rambo 05
+  "Rocky":
+    match:
+      title: Rocky
+      year: 1976
+    sort_title: Rocky 01
+  "Rocky II":
+    match:
+      title: Rocky II
+      year: 1979
+    sort_title: Rocky 02
+  "Rocky III":
+    match:
+      title: Rocky III
+      year: 1982
+    sort_title: Rocky 03
+  "Rocky Balboa":
+    match:
+      title: Rocky Balboa
+      year: 2006
+    sort_title: Rocky 04
   "Star Trek: The Motion Picture":
     match:
       title: "Star Trek: The Motion Picture"
@@ -810,13 +911,13 @@ metadata:
       title: "Terminator 2: Judgment Day"
       year: 1991
       edition: Extended Remastered
-    sort_title: Terminator 02a
+    sort_title: Terminator 02A
   "Terminator 2: Judgment Day - Theatrical":
     match:
       title: "Terminator 2: Judgment Day"
       year: 1991
       edition: Theatrical Cut
-    sort_title: Terminator 02b
+    sort_title: Terminator 02B
   "Terminator 3: Rise of the Machines":
     match:
       title: "Terminator 3: Rise of the Machines"
@@ -888,14 +989,6 @@ metadata:
       year: 2010
     original_title: True Grit
     title: True Grit (2010)
-  "Vacation":
-    match:
-      title:
-      - Vacation
-      - National Lampoon's Vacation
-      year: 1983
-    original_title: National Lampoon's Vacation
-    title: Vacation
   "X-Men":
     match:
       title: X-Men

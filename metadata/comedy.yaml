@@ -1,0 +1,22 @@
+metadata:
+  "Ari Shaffir: Jew":
+    match:
+      title:
+      - "Ari Shaffir: Jew"
+      - Jew
+      year: 2022
+    title: "Ari Shaffir: Jew"
+  "Louis C.K.: 2017":
+    match:
+      title:
+      - "Louis C.K.: 2017"
+      - "Louis C.K. 2017"
+      year: 2017
+    title: "Louis C.K.: 2017"
+  "Louis C.K.: Oh My God":
+    match:
+      title:
+      - "Louis C.K.: Oh My God"
+      - "Louis C.K. Oh My God"
+      year: 2013
+    title: "Louis C.K.: Oh My God"
