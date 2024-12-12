@@ -19,7 +19,6 @@ media-library
 │    ├─── collections
 │    │    ├─── basic
 │    │    ├─── charts
-│    │    ├─── comedians
 │    │    ├─── comedy
 │    │    ├─── decades
 │    │    ├─── formats
@@ -93,17 +92,17 @@ media-library
 │    ├─── library
 │    │    └─── comedy, movies, shows
 │    ├─── recycle
-│    │    └─── movies, shows
+│    │    └─── comedy, movies, shows
 │    ├─── temp
 │    │    └─── comedy, movies, shows
 │    ├─── test
 │    │    └─── comedy, movies, shows
 │    ├─── torrents
-│    │    ├─── movies, shows
+│    │    ├─── comedy, movies, shows
 │    │    └─── torrent
 │    └─── usenet
 │         ├─── complete
-│         │    └─── movies, shows
+│         │    └─── comedy, movies, shows
 │         ├─── downloading
 │         └─── nzb
 ├─── metadata
