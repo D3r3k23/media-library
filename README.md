@@ -10,11 +10,39 @@
 - (?) Check health
 - Display people, studios, networks
 
+## Library
+```
+data
+├─── media
+│    ├─── extras
+│    │    └─── comedy, movies, music, shows
+│    ├─── library
+│    │    └─── comedy, movies, music, shows
+│    ├─── temp
+│    │    └─── comedy, movies, music, shows
+│    └─── test
+│         └─── comedy, movies, music, shows
+├─── recycle
+│    └─── comedy, movies, music, shows
+├─── torrents
+│    ├─── complete
+│    │    └─── comedy, movies, music, shows
+│    ├─── incomplete
+│    └─── torrent
+└─── usenet
+     ├─── complete
+     │    └─── comedy, movies, music, shows
+     ├─── incomplete
+     └─── nzb
+```
+
 ## Repository Guide
 ```
 media-library
 ├─── collexions
 │    └─── config.json
+├─── imagemaid
+│    └─── .env
 ├─── images
 │    ├─── collections
 │    │    ├─── basic
@@ -57,8 +85,6 @@ media-library
 │    │    │    └─── networks.yaml
 │    │    ├─── people
 │    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
-│    │    ├─── prerolls
-│    │    │    └─── prerolls.yaml
 │    │    ├─── seasonal
 │    │    │    └─── movies.yaml, shows.yaml, templates.yaml
 │    │    ├─── series
@@ -66,15 +92,26 @@ media-library
 │    │    ├─── studios
 │    │    │    └─── studios.yaml
 │    │    ├─── collectionless.yaml
+│    │    ├─── prerolls.yaml
+│    │    ├─── refresh.yaml
 │    │    └─── templates.yaml
 │    ├─── labels
-│    │    ├─── audio.yaml
-│    │    ├─── editions.yaml
-│    │    ├─── favorites.yaml
-│    │    ├─── source.yaml
-│    │    ├─── tags.yaml
-│    │    ├─── templates.yaml
-│    │    └─── video.yaml
+│    │    ├─── audio
+│    │    │    └─── audio.yaml, templates.yaml
+│    │    ├─── editions
+│    │    │    └─── editions.yaml, templates.yaml
+│    │    ├─── favorites
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── genres
+│    │    │    └─── both.yaml, movies.yaml, shows.yaml, templates.yaml
+│    │    ├─── sources
+│    │    │    └─── sources.yaml, templates.yaml
+│    │    ├─── tags
+│    │    │    └─── tags.yaml, templates.yaml
+│    │    ├─── video
+│    │    │    └─── video.yaml, templates.yaml
+│    │    ├─── reset.yaml
+│    │    └─── templates.yaml
 │    ├─── overlays
 │    │    ├─── both.yaml
 │    │    ├─── movies.yaml
@@ -83,28 +120,10 @@ media-library
 │    ├─── playlists
 │    │    └─── playlists.yaml
 │    ├─── reports
+│    ├─── docker-compose.yml
 │    └─── config.yaml
 ├─── kometa-dev
 │    └─── *Same as above*
-├─── media
-│    ├─── extras
-│    │    └─── comedy, movies, shows
-│    ├─── library
-│    │    └─── comedy, movies, shows
-│    ├─── recycle
-│    │    └─── comedy, movies, shows
-│    ├─── temp
-│    │    └─── comedy, movies, shows
-│    ├─── test
-│    │    └─── comedy, movies, shows
-│    ├─── torrents
-│    │    ├─── comedy, movies, shows
-│    │    └─── torrent
-│    └─── usenet
-│         ├─── complete
-│         │    └─── comedy, movies, shows
-│         ├─── downloading
-│         └─── nzb
 ├─── metadata
 │    ├─── comedy.yaml
 │    ├─── movies.yaml
@@ -130,5 +149,7 @@ media-library
 │    ├─── comedy
 │    ├─── movies
 │    └─── shows
-└─── title-card-maker
-     └─── config.yaml
+├─── titlecardmaker
+│    └─── config.yaml
+└─── docker-compose.yml
+```

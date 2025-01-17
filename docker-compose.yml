@@ -1,0 +1,198 @@
+version: "3.2"
+services:
+  # Media
+  radarr: # TRaSH
+    container_name: radarr
+    image: ghcr.io/hotio/radarr:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 7878:7878
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /docker/appdata/radarr:/config
+      - /data:/data
+  sonarr: # TRaSH
+    container_name: sonarr
+    image: ghcr.io/hotio/sonarr:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 8989:8989
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /docker/appdata/sonarr:/config
+      - /data:/data
+  # lidarr
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - TZ=${TIMEZONE}
+    volumes:
+      - ${CONFIG_ROOT:-.}/prowlarr:/config
+    restart: always
+    healthcheck:
+      test: [ "CMD", "curl", "--fail", "http://127.0.0.1:9696/prowlarr/ping" ]
+      interval: 30s
+      retries: 10
+  # bazarr: # TRaSH
+  #   container_name: bazarr
+  #   image: ghcr.io/hotio/bazarr:latest
+  #   restart: unless-stopped
+  #   logging:
+  #     driver: json-file
+  #   ports:
+  #     - 6767:6767
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     - TZ=Europe/Amsterdam
+  #   volumes:
+  #     - /etc/localtime:/etc/localtime:ro
+  #     - /docker/appdata/bazarr:/config
+  #     - /data/media:/data/media
+  sabnzbd: # TRaSH
+    container_name: sabnzbd
+    image: ghcr.io/hotio/sabnzbd:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 8080:8080
+      - 9090:9090
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /docker/appdata/sabnzbd:/config
+      - /data/usenet:/data/usenet:rw
+
+  # Server
+  # plex:
+  #   container_name: plex
+  #   image: ghcr.io/hotio/plex
+  #   ports:
+  #     - "32400:32400"
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     - UMASK=002
+  #     - TZ=Etc/UTC
+  #     - PLEX_CLAIM_TOKEN
+  #     - PLEX_ADVERTISE_URL
+  #     - PLEX_NO_AUTH_NETWORKS
+  #     - PLEX_BETA_INSTALL=false
+  #     - PLEX_PURGE_CODECS=false
+  #   volumes:
+  #     - /<host_folder_config>:/config
+  #     - /<host_folder_transcode>:/transcode
+  #     - /<host_folder_data>:/data
+  # tautulli:
+  #   image: tautulli/tautulli
+  #   container_name: tautulli
+  #   restart: unless-stopped
+  #   volumes:
+  #     - <path to data>:/config
+  #   environment:
+  #     - PUID=<uid>
+  #     - PGID=<gid>
+  #     - TZ=<timezone>
+  #   ports:
+  #     - 8181:8181
+  # jellyfin:
+  #   image: lscr.io/linuxserver/jellyfin:latest
+  #   container_name: jellyfin
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     - TZ=Etc/UTC
+  #     - JELLYFIN_PublishedServerUrl=http://192.168.0.5 #optional
+  #   volumes:
+  #     - /path/to/jellyfin/library:/config
+  #     - /path/to/tvseries:/data/tvshows
+  #     - /path/to/movies:/data/movies
+  #   ports:
+  #     - 8096:8096
+  #     - 8920:8920 #optional
+  #     - 7359:7359/udp #optional
+  #     - 1900:1900/udp #optional
+  #   restart: unless-stopped
+
+  # Library
+  # kometa/docker-compose.yml
+  # posterizarr:
+  #   hostname: "posterizarr"
+  #   container_name: "posterizarr"
+  #   environment:
+  #     - "PGID=1000"
+  #     - "PUID=1000"
+  #     - "TZ=Europe/Berlin"
+  #     - "UMASK=022"
+  #     - "TERM=xterm"
+  #     - "RUN_TIME=10:30,19:30"
+  #   image: "ghcr.io/fscorrupt/docker-posterizarr:latest"
+  #   restart: "unless-stopped"
+  #   networks:
+  #     - "proxy"
+  #   volumes:
+  #     - "/opt/appdata/posterizarr:/config:rw"
+  #     - "/opt/appdata/kometa/assets:/assets:rw"
+  #     - "/opt/appdata/posterizarr/assetsbackup:/assetsbackup:rw"
+  #     - "/opt/appdata/posterizarr/manualassets:/manualassets:rw"
+  # titlecardmaker:
+  #   image: 'collinheist/titlecardmaker:latest'
+  #   container_name: TitleCardMaker
+  #   network_mode: bridge
+  #   volumes:
+  #     - '"/docker/titlecardmaker/":/config/:rw'
+  #   environment:
+  #     - PGID=99
+  #     - PUID=100
+  #     - TZ=America/Los_Angeles
+  #   ports:
+  #     - '4242:4242'
+  #   restart: unless-stopped
+  #   stdin_open: true
+  #   tty: true
+  #   # depends_on:
+  #   #   - sonarr
+  #   #   - plex
+  #   #   - emby
+  #   #   - jellyfin
+  # imagemaid:
+  #   image: kometateam/imagemaid
+  #   container_name: imagemaid
+  #   environment:
+  #     - TZ=TIMEZONE #optional
+  #   volumes:
+  #     - /path/to/config:/config
+  #     - /path/to/plex:/plex
+  #   restart: unless-stopped
+  # watchtower:
+  #   image: containrrr/watchtower
+  #   container_name: watchtower
+  #   restart: always
+  #   environment:
+  #     - WATCHTOWER_CLEANUP=true
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  proxy:
+    driver: bridge
+    external: true
