@@ -1,8 +1,24 @@
 version: "3.2"
 services:
   # Media
-  radarr: # TRaSH
-    container_name: radarr
+  # radarr-comedy: # TRaSH
+  #   container_name: radarr-comedy
+  #   image: ghcr.io/hotio/radarr:latest
+  #   restart: unless-stopped
+  #   logging:
+  #     driver: json-file
+  #   ports:
+  #     - 7878:7878
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     # - TZ=Europe/Amsterdam
+  #   volumes:
+  #     - /etc/localtime:/etc/localtime:ro
+  #     - /mnt/user/appdata/radarr:/config
+  #     - /mnt/user/data:/data
+  radarr-movies: # TRaSH
+    container_name: radarr-movies
     image: ghcr.io/hotio/radarr:latest
     restart: unless-stopped
     logging:
