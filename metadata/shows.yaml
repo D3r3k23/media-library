@@ -4,14 +4,11 @@ metadata:
       title: "1883"
       year: 2021
     seasons: {1: {title: Miniseries}}
-  "Andor":
+  "1923":
     match:
-      title: Andormetadata:
-  "1883":
-    match:
-      title: "1883"
-      year: 2021
-    seasons: {1: {title: Miniseries}}
+      title: "1923"
+      year: 2022
+    seasons: {1: {title: Season One}}
   "Altered Carbon":
     match:
       title: Altered Carbon
@@ -19,10 +16,15 @@ metadata:
     seasons:
       1: {title: Season One}
       # 2: {title: Season Two}
-  "Andor":
+  "Andor: A Star Wars Story":
     match:
-      title: Andor
+      title:
+      - Andor
+      - "Star Wars: Andor"
+      - "Andor: A Star Wars Story"
       year: 2022
+    original_title: Andor
+    title: "Andor: A Star Wars Story"
     seasons:
       1: {title: Season One}
       # 2: {title: Season Two}
@@ -63,6 +65,13 @@ metadata:
           3: {title: "We Stand Alone Together: The Men of Easy Company", label: Favorite}
           4: {title: Ron Livingston's Video Diaries}
       1: {title: Miniseries}
+  "Baseball":
+    match:
+      title: Baseball
+      year: 1994
+    seasons:
+      1: {title: Miniseries}
+      2: {title: The Tenth Inning}
   "The Blue Planet":
     match:
       title: The Blue Planet
@@ -94,6 +103,11 @@ metadata:
       3: {title: Season Three}
       4: {title: Season Four}
       5: {title: Season Five}
+  "The Civil War":
+    match:
+      title: The Civil War
+      year: 1990
+    seasons: {1: {title: Miniseries}}
   "Chernobyl":
     match:
       title: Chernobyl
@@ -137,6 +151,11 @@ metadata:
           6: {title: "Chapter 22: Mushrooming"}
           7: {title: "Chapter 23: Parking"}
           8: {title: "Chapter 24: Calculating"}
+  "Cosmos":
+    match:
+      title: Cosmos
+      year: 1980
+    seasons: {1: {title: Miniseries}}
   "Cyberpunk: Edgerunners":
     match:
       title: "Cyberpunk: Edgerunners"
@@ -151,6 +170,11 @@ metadata:
     original_title: Philip K. Dick's Electric Dreams
     title: Electric Dreams
     seasons: {1: {title: Season One}}
+  "Epic Yellowstone":
+    match:
+      title: Epic Yellowstone
+      year: 2019
+    seasons: {1: {title: Miniseries}}
   "The Expanse":
     match:
       title: The Expanse
@@ -257,6 +281,7 @@ metadata:
       - House of Cards
       - House of Cards (US)
       year: 2013
+    original_title: House of Cards (US)
     title: House of Cards
   "House of the Dragon":
     match:
@@ -270,6 +295,14 @@ metadata:
       title: I, Claudius
       year: 1976
     seasons: {1: {title: Miniseries}}
+  "An Idiot Abroad":
+    match:
+      title: An Idiot Abroad
+      year: 2010
+    seasons:
+      1: {title: "Season 1: The 7 Wonders"}
+      2: {title: "Season 2: The Bucket List"}
+      3: {title: "Season 3: The Short Way Round"}
   "John Adams":
     match:
       title: John Adams
@@ -285,18 +318,49 @@ metadata:
           5: {title: "Part V: Unite or Die"}
           6: {title: "Part VI: Unnecessary War"}
           7: {title: "Part VII: Peacefield"}
-  # "Kitchen Nightmares":
-  #   match:
-  #     title:
-  #     - Kitchen Nightmares
-  #     - Kitchen Nightmares (US)
-  #     year: 2007
-  #   title: Kitchen Nightmares
-  # "Life":
-  #   match:
-  #     title: Life
-  #     year: 2009
-  #   seasons: {1: {title: Miniseries}}
+  "Kitchen Nightmares":
+    match:
+      title:
+      - Kitchen Nightmares
+      - Kitchen Nightmares (US)
+      year: 2007
+    original_title: Kitchen Nightmares (US)
+    title: Kitchen Nightmares
+  "LEGO Masters":
+    match:
+      title:
+      - LEGO Masters
+      - LEGO Masters (US)
+      year: 2020
+    original_title: LEGO Masters (US)
+    title: LEGO Masters
+  "Lewis & Clark: The Journey of the Corps of Discovery":
+    match:
+      title:
+      - "Lewis & Clark: The Journey of the Corps of Discovery"
+      - "Lewis and Clark: The Journey of the Corps of Discovery"
+      year: 1997
+    title: "Lewis & Clark: The Journey of the Corps of Discovery"
+    seasons: {1: {title: Miniseries}}
+  "Life":
+    match:
+      title: Life
+      year: 2009
+    seasons: {1: {title: Miniseries}}
+  "LOVE DEATH + ROBOTS":
+    match:
+      title:
+      - LOVE DEATH + ROBOTS
+      - Love, Death & Robots
+      - Love, Death + Robots
+      year: 2019
+    original_title: Love, Death & Robots
+    title: LOVE DEATH + ROBOTS
+    seasons:
+      1: {title: Volume I}
+      2: {title: Volume II}
+      3: {title: Volume III}
+      # 4: {title: Volume IV}
   "The Mandalorian":
     match:
       title: The Mandalorian
@@ -357,12 +421,52 @@ metadata:
       1: {title: Season One}
       2: {title: Season Two}
       3: {title: Season Three}
+  "The National Parks: America's Best Idea":
+    match:
+      title: "The National Parks: America's Best Idea"
+      year: 2009
+    seasons: {1: {title: Miniseries}}
   "The Pacific":
     match:
       title: The Pacific
       year: 2010
     seasons:
       1: {title: Miniseries}
+  "Peaky Blinders":
+    match:
+      title: Peaky Blinders
+      year: 2013
+    seasons:
+      1:
+        episodes:
+          1: {title: Episode One}
+          2: {title: Episode Two}
+          3: {title: Episode Three}
+          4: {title: Episode Four}
+          5: {title: Episode Five}
+          6: {title: Episode Six}
+      2:
+        episodes:
+          1: {title: Episode One}
+          2: {title: Episode Two}
+          3: {title: Episode Three}
+          4: {title: Episode Four}
+          5: {title: Episode Five}
+          6: {title: Episode Six}
+      3:
+        episodes:
+          1: {title: Episode One}
+          2: {title: Episode Two}
+          3: {title: Episode Three}
+          4: {title: Episode Four}
+          5: {title: Episode Five}
+          6: {title: Episode Six}
+  "The Penguin":
+    match:
+      title: The Penguin
+      year: 2024
+    seasons:
+      1: {title: Season One}
   "Planet Earth":
     match:
       title: Planet Earth
@@ -378,11 +482,6 @@ metadata:
       title: Planet Earth III
       year: 2023
     seasons: {1: {title: Miniseries}}
-  # "Pope John Paul II":
-  #   match:
-  #     title: Pope John Paul II
-  #     year: 2005
-  #   seasons: {1: {title: Miniseries}}
   "Prehistoric Planet":
     match:
       title:
@@ -436,6 +535,11 @@ metadata:
       1: {title: "Season 1: Blood and Sand"}
       2: {title: "Season 2: Vengeance"}
       3: {title: "Season 3: War of the Damned"}
+  "Squid Game":
+    match:
+      title: Squid Game
+      year: 2021
+    seasons: {1: {title: Season One}}
   "Stranger Things":
     match:
       title: Stranger Things
@@ -534,6 +638,11 @@ metadata:
       year: 2017
     title: The Vietnam War
     seasons: {1: {title: Miniseries}}
+  "The War":
+    match:
+      title: The War
+      year: 2008
+    seasons: {1: {title: Miniseries}}
   "Westworld":
     match:
       title: Westworld
@@ -557,442 +666,23 @@ metadata:
       - Yellowstone (2018)
       year: 2018
     title: Yellowstone
-
-      year: 2022
-    seasons:
-      1: {title: Season One}
-  "Avatar: The Last Airbender":
-    match:
-      title: "Avatar: The Last Airbender"
-      year: 2005
-    seasons:
-      1:
-        title: "Book One: Water"
-        episodes:
-          7: {title: "The Spirit World: Winter Solstice (Part 1)"}
-          8: {title: "Avatar Roku: Winter Solstice (Part 2)"}
-          19: {title: The Siege of the North (Part 1)}
-          20: {title: The Siege of the North (Part 2)}
-      2:
-        title: "Book Two: Earth"
-      3:
-        title: "Book Three: Fire"
-        episodes:
-          10: {title: "The Day of Black Sun: The Invasion (Part 1)"}
-          11: {title: "The Day of Black Sun: The Eclipse (Part 2)"}
-          14: {title: The Boiling Rock (Part 1)}
-          15: {title: The Boiling Rock (Part 2)}
-          17: {title: "Sozin's Comet: The Phoenix King (Part 1)"}
-          18: {title: "Sozin's Comet: The Old Masters (Part 2)"}
-          19: {title: "Sozin's Comet: Into the Inferno (Part 3)"}
-          20: {title: "Sozin's Comet: Avatar Aang (Part 4)"}
-  "Band of Brothers":
-    match:
-      title: Band of Brothers
-      year: 2001
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "The Blue Planet":
-    match:
-      title: The Blue Planet
-      year: 2001
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Blue Planet II":
-    match:
-      title: Blue Planet II
-      year: 2017
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Chernobyl":
-    match:
-      title: Chernobyl
-      year: 2019
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Electric Dreams":
-    match:
-      title:
-      - Electric Dreams
-      - Philip K. Dick's Electric Dreams
-      year: 2017
-    original_title: Philip K. Dick's Electric Dreams
-    title: Electric Dreams
-    seasons:
-      1: {title: Miniseries}
-    genre: Miniseries
-  "The Expanse":
-    match:
-      title: The Expanse
-      year: 2015
-    seasons:
-      1: {title: "Season 1: Leviathan Wakes"}
-      2: {title: "Season 2: Caliban's War"}
-      3: {title: "Season 3: Abaddon's Gate"}
-      # 4: {title: "Season 4: Cibola Burn"}
-      # 5: {title: "Season 5: Nemesis Games"}
-      # 6: {title: "Season 6: Babylon's Ashes"}
-  "Firefly":
-    match:
-      title: Firefly
-      year: 2002
-    episode_ordering: tvdb_dvd
-  "Foundation":
-    match:
-      title:
-      - Foundation
-      - Foundation (2021)
-      year: 2021
-    title: Foundation
-  "Frank Herbert's Dune":
-    match:
-      title:
-      - Dune
-      - Frank Herbert's Dune
-      year: 2000
-    title: Frank Herbert's Dune
-    sort_title: Frank Herbert's Dune 01
-    seasons:
-      1:
-        title: Miniseries
-        episodes:
-          1: {title: "Part One: Dune"}
-          2: {title: "Part Two: Muad'Dib"}
-          3: {title: "Part Three: The Prophet"}
-    genre: Miniseries
-  "Frank Herbert's Children of Dune":
-    match:
-      title:
-      - Children of Dune
-      - Frank Herbert's Children of Dune
-      year: 2003
-    title: Frank Herbert's Children of Dune
-    sort_title: Frank Herbert's Dune 02
-    seasons:
-      1:
-        title: Miniseries
-        episodes:
-          1: {title: "Part One: The Messiah"}
-          2: {title: "Part Two: The Children"}
-          3: {title: "Part Three: The Golden Path"}
-    genre: Miniseries
-  "Frozen Planet":
-    match:
-      title: Frozen Planet
-      year: 2011
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Game of Thrones":
-    match:
-      title: Game of Thrones
-      year: 2011
     seasons:
       1: {title: Season One}
       2: {title: Season Two}
       3: {title: Season Three}
       4: {title: Season Four}
-      5: {title: Season Five}
-      6: {title: Season Six}
-      7: {title: Season Seven}
-      8: {title: Season Eight}
-  "Generation Kill":
+      # 5: {title: Season Five}
+  "Yellowstone: One-Fifty":
     match:
-      title: Generation Kill
-      year: 2008
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "The Grand Tour":
-    match:
-      title:
-      - The Grand Tour
-      - The Grand Tour (2016)
-      year: 2016
-    title: The Grand Tour
-    seasons:
-      6: {title: One for the Road}
-  "House of Cards":
-    match:
-      title:
-      - House of Cards
-      - House of Cards (US)
-      year: 2013
-    title: House of Cards
-  "House of the Dragon":
-    match:
-      title: House of the Dragon
+      title: "Yellowstone: One-Fifty"
       year: 2022
-    seasons:
-      1: {title: "Season One: The Heirs of the Dragon"}
-      2: {title: "Season Two: The Dance of the Dragons"}
-  "I, Claudius":
-    match:
-      title: I, Claudius
-      year: 1976
     seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "John Adams":
-    match:
-      title: John Adams
-      year: 2008
-    seasons:
-      1:
-        title: Miniseries
-        episodes:
-          1: {title: "Part I: Join or Die"}
-          2: {title: "Part II: Independence"}
-          3: {title: "Part III: Don't Tread on Me"}
-          4: {title: "Part IV: Reunion"}
-          5: {title: "Part V: Unite or Die"}
-          6: {title: "Part VI: Unnecessary War"}
-          7: {title: "Part VII: Peacefield"}
-    genre: Miniseries
-  "The Mandalorian":
-    match:
-      title: The Mandalorian
-      year: 2019
-    seasons:
-      1: {title: Season One}
-      2: {title: Season Two}
-  "Maniac":
-    match:
-      title:
-      - Maniac
-      - Maniac (2018)
-      year: 2018
-    title: Maniac
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Masters of the Air":
-    match:
-      title:
-      - Masters of the Air
-      - Masters Of The Air
-      year: 2024
-    title: Masters of the Air
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "The Men Who Built America":
-    match:
-      title: The Men Who Built America
-      year: 2012
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "The Men Who Built America: Frontiersmen":
-    match:
-      title: "The Men Who Built America: Frontiersmen"
-      year: 2018
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Million Dollar Extreme Presents: World Peace":
-    match:
-      title: "Million Dollar Extreme Presents: World Peace"
-      year: 2016
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Mr. Robot":
-    match:
-      title: Mr. Robot
-      year: 2015
-    seasons:
-      1: {title: season_1.0}
-      2: {title: season_2.0}
-      3: {title: season_3.0}
-      4: {title: season_4.0}
-  "The Pacific":
-    match:
-      title: The Pacific
-      year: 2010
-    seasons:
-      1: {title: Miniseries}
-    genre: Miniseries
-  "Planet Earth":
-    match:
-      title: Planet Earth
-      year: 2006
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Planet Earth II":
-    match:
-      title: Planet Earth II
-      year: 2016
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Planet Earth III":
-    match:
-      title: Planet Earth III
-      year: 2023
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  # "Pope John Paul II":
-  #   match:
-  #     title: Pope John Paul II
-  #     year: 2005
-  #   seasons: {1: {title: Miniseries}}
-  #   genre: Miniseries
-  "Prehistoric Planet":
-    match:
-      title:
-      - Prehistoric Planet
-      - Prehistoric Planet (2022)
-      year: 2022
-    title: Prehistoric Planet
-  "Prison Break":
-    match:
-      title: Prison Break
-      year: 2005
-  "The Queen's Gambit":
-    match:
-      title: "The Queen's Gambit"
-      year: 2020
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Reacher":
-    match:
-      title: Reacher
-      year: 2022
-    seasons:
-      1: {title: "Season 1: Killing Floor"}
-      2: {title: "Season 2: Bad Luck and Trouble"}
-  "Rome":
-    match:
-      title: Rome
-      year: 2005
-    seasons:
-      1: {title: Season I}
-      2: {title: Season II}
-  "Seven Worlds, One Planet":
-    match:
-      title: Seven Worlds, One Planet
-      year: 2019
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Shōgun":
-    match:
-      title:
-      - Shogun
-      - "Shōgun"
-      year: 2024
-    title: "Shōgun"
-    seasons:
-      1: {title: Season One}
-  "Spartacus":
-    match:
-      title: Spartacus
-      year: 2010
-    seasons:
-      0: {title: Gods of the Arena}
-      1: {title: "Season 1: Blood and Sand"}
-      2: {title: "Season 2: Vengeance"}
-      3: {title: "Season 3: War of the Damned"}
-  "Stranger Things":
-    match:
-      title: Stranger Things
-      year: 2016
-    seasons:
-      1: {title: Stranger Things}
-      2: {title: Stranger Things 2}
-      # 3: {title: Stranger Things 3}
-      # 4: {title: Stranger Things 4}
-  "Star Wars: The Clone Wars":
-    match:
-      title: "Star Wars: The Clone Wars"
-      year: 2008
-    seasons:
-      2: {title: "Season 2: Rise of the Bounty Hunters"}
-      3: {title: "Season 3: Secrets Revealed"}
-      4: {title: "Season 4: Battle Lines"}
-      6: {title: "Season 6: The Lost Missions"}
-      7: {title: "Season 7: The Final Season"}
-  "True Detective":
-    match:
-      title: True Detective
-      year: 2014
-    seasons:
-      1: {title: Season One}
-      2: {title: Season Two}
-      3: {title: Season Three}
-  "Twin Peaks":
-    match:
-      title: Twin Peaks
-      year: 1990
-    seasons:
-      1:
-        episodes:
-          1: {title: "Pilot: Northwest Passage"}
-          2: {title: "Episode 1: Traces to Nowhere"}
-          3: {title: "Episode 2: Zen, or the Skill to Catch a Killer"}
-          4: {title: "Episode 3: Rest in Pain"}
-          5: {title: "Episode 4: The One-Armed Man"}
-          6: {title: "Episode 5: Cooper's Dreams"}
-          7: {title: "Episode 6: Realization Time"}
-          8: {title: "Episode 7: The Last Evening"}
-      2:
-        episodes:
-          1: {title: "Episode 8: May the Giant Be With You"}
-          2: {title: "Episode 9: Coma"}
-          3: {title: "Episode 10: The Man Behind the Glass"}
-          4: {title: "Episode 11: Laura's Secret Diary"}
-          5: {title: "Episode 12: The Orchid's Curse"}
-          6: {title: "Episode 13: Demons"}
-          7: {title: "Episode 14: Lonely Souls"}
-          8: {title: "Episode 15: Drive with a Dead Girl"}
-          9: {title: "Episode 16: Arbitrary Law"}
-          10: {title: "Episode 17: Dispute Between Brothers"}
-          11: {title: "Episode 18: Masked Ball"}
-          12: {title: "Episode 19: The Black Widow"}
-          13: {title: "Episode 20: Checkmate"}
-          14: {title: "Episode 21: Double Play"}
-          15: {title: "Episode 22: Slaves and Masters"}
-          16: {title: "Episode 23: The Condemned Woman"}
-          17: {title: "Episode 24: Wounds and Scars"}
-          18: {title: "Episode 25: On the Wings of Love"}
-          19: {title: "Episode 26: Variations on Relations"}
-          20: {title: "Episode 27: The Path to the Black Lodge"}
-          21: {title: "Episode 28: Miss Twin Peaks"}
-          22: {title: "Episode 29: Beyond Life and Death"}
-      3:
-        title: "Season 3: The Return"
-        episodes:
-          1: {title: "Part 1: My Log Has a Massage for You"}
-          2: {title: "Part 2: The Stars Turn and a Time Presents Itself"}
-          3: {title: "Part 3: Call for Help"}
-          4: {title: "Part 4: ...Brings Back Some Memories"}
-          5: {title: "Part 5: Case Files"}
-          6: {title: "Part 6: Don't Die"}
-          7: {title: "Part 7: There's a Body All Right"}
-          8: {title: "Part 8: Gotta Light?"}
-          9: {title: "Part 9: This Is the Chair"}
-          10: {title: "Part 10: Laura Is the One"}
-          11: {title: "Part 11: There's Fire Where You Are Going"}
-          12: {title: "Part 12: Let's Rock"}
-          13: {title: "Part 13: What Story is That, Charlie?"}
-          14: {title: "Part 14: We Are Like the Dreamer"}
-          15: {title: "Part 15: There's Some Fear in Letting Go"}
-          16: {title: "Part 16: No Knock, No Doorbell"}
-          17: {title: "Part 17: The Past Dictates the Future"}
-          18: {title: "Part 18: What Is Your Name?"}
-  "The Vietnam War":
-    match:
-      title:
-      - The Vietnam War
-      - The Vietnam War (2017)
-      year: 2017
-    title: The Vietnam War
-    seasons: {1: {title: Miniseries}}
-    genre: Miniseries
-  "Westworld":
-    match:
-      title: Westworld
-      year: 2016
-    seasons:
-      1: {title: "Season One: The Maze"}
-      2: {title: "Season Two: The Door"}
-      # 3: {title: "Season Three: The New World"}
-      # 4: {title: "Season Four: The Choice"}
-  "Yellowstone":
+  "Yellowstone: Battle for Life":
     match:
       title:
       - Yellowstone
-      - Yellowstone (2018)
-      year: 2018
-    title: Yellowstone
+      - "Yellowstone: Battle for Life"
+      year: 2009
+    original_title: Yellowstone
+    title: "Yellowstone: Battle for Life"
+    seasons: {1: {title: Miniseries}}

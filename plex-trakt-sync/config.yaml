@@ -1,0 +1,65 @@
+cache:
+  path: $PTS_CACHE_DIR/trakt_cache
+
+config:
+  dotenv_override: true
+
+plex:
+  timeout: 30
+
+logging:
+  append: true
+  console_time: false
+  debug: false
+  filename: plextraktsync.log
+  filter_loggers:
+  #    - plexapi
+  #    - requests_cache.backends
+  #    - requests_cache.backends.base
+  #    - requests_cache.backends.sqlite
+  #    - requests_cache.policy.actions
+  #    - requests_cache.session
+  #    - trakt.core
+  #    - urllib3.connectionpool
+  filter:
+#    # Filter out all messages with level WARNING
+#    - level: WARNING
+#    # Filter out message with level WARNING and containing a text
+#    - level: WARNING
+#      message: "not found on Trakt"
+#    - message: "because provider local has no external Id"
+#    - message: "because provider none has no external Id"
+#    - message: "Retry using search for specific Plex Episode"
+#    # Filter out messages by requests_cache
+#    - name: requests_cache.backends
+#    - name: requests_cache.backends.base
+#    - name: requests_cache.backends.sqlite
+#    - name: requests_cache.policy.actions
+#    - name: requests_cache.session
+
+sync:
+  rating_priority: trakt
+  plex_to_trakt:
+    collection: true
+    clear_collected: true
+    ratings: true
+    watched_status: true
+    watchlist: false
+  trakt_to_plex:
+    liked_lists: false
+    playback_status: true
+    ratings: true
+    watched_status: true
+    watchlist: true
+
+watch:
+  add_collection: false
+  remove_collection: false
+  scrobble_threshold: 80 # what video watched percentage (0 to 100) triggers the watched status
+  username_filter: true # true to scrobble only what's watched by you, false for all your PMS users
+  media_progressbar: true # Show the progress bar of played media in terminal
+  ignore_clients: ~ # Clients to ignore when listening Play events
+
+xbmc-providers:
+  movies: imdb
+  shows: tvdb

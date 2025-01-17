@@ -1,12 +1,4 @@
 metadata:
-  "1984":
-    match:
-      title:
-      - "1984"
-      - Nineteen Eighty-Four
-      year: 1984
-    original_title: Nineteen Eighty-Four
-    title: "1984"
   "3:10 to Yuma (2007)":
     match:
       title:
@@ -15,6 +7,28 @@ metadata:
       year: 2007
     original_title: 3:10 to Yuma
     title: 3:10 to Yuma (2007)
+  "28 Days Later":
+    match: {title: 28 Days Later, year: 2002}
+    sort_title: 28 Days 01
+  "28 Weeks Later":
+    match: {title: 28 Weeks Later, year: 2007}
+    sort_title: 28 Days 02
+  # "28 Years Later":
+  #   match: {title: 28 Years Later, year: 2025}
+  #   sort_title: 28 Days 03
+  "1984":
+    match:
+      title:
+      - "1984"
+      - Nineteen Eighty-Four
+      year: 1984
+    original_title: Nineteen Eighty-Four
+    title: "1984"
+  "20,000 Leagues Under the Sea":
+    match:
+      title: 20,000 Leagues Under the Sea
+      year: 1954
+    sort_title: 20000 Leagues Under the Sea
   "Airplane!":
     match:
       title: Airplane!
@@ -50,14 +64,24 @@ metadata:
       year: 1986
       edition: Theatrical Cut
     sort_title: Alien 02B
-  "Alien³":
+  "Alien³ - Asssembly Cut":
     match:
       title:
       - "Alien³"
       - Alien3
       year: 1992
+      edition: Assembly Cut
     title: "Alien³"
-    sort_title: Alien 03
+    sort_title: Alien 03A
+  "Alien³ - Theatrical Cut":
+    match:
+      title:
+      - "Alien³"
+      - Alien3
+      year: 1992
+      edition: Theatrical Cut
+    title: "Alien³"
+    sort_title: Alien 03B
   "Alien: Resurrection":
     match:
       title:
@@ -97,6 +121,13 @@ metadata:
       year: 1978
     original_title: National Lampoon's Animal House
     title: Animal House
+  "Around the World in 80 Days":
+    match:
+      title:
+      - Around the World in 80 Days
+      - Around the World in Eighty Days
+      year: 1956
+    title: Around the World in 80 Days
   "Austin Powers: International Man of Mystery":
     match:
       title: "Austin Powers: International Man of Mystery"
@@ -161,21 +192,36 @@ metadata:
       - "Back to the Future: Part III"
       year: 1990
     title: "Back to the Future: Part III"
+  "Batman":
+    match:
+      title: Batman
+      year: 1989
+    sort_title: Batman 01
+  "Batman Returns":
+    match:
+      title: Batman Returns
+      year: 1992
+    sort_title: Batman 02
+  "Batman Forever":
+    match:
+      title: Batman Forever
+      year: 1995
+    sort_title: Batman 03
   "Batman Begins":
     match:
       title: Batman Begins
       year: 2005
-    sort_title: Batman 01
+    sort_title: Batman 04
   "The Batman":
     match:
       title: The Batman
       year: 2022
-    sort_title: Batman 02
+    sort_title: Batman 05
   # "The Batman: Part II":
   #   match:
   #     title: The Batman: Part II
   #     year: 2026
-  #   sort_title: Batman 03
+  #   sort_title: Batman 06
   "Battle: Los Angeles":
     match:
       title:
@@ -233,21 +279,6 @@ metadata:
       title: "Captain America: Civil War"
       year: 2016
     sort_title: Captain America 03
-  "Deadpool":
-    match:
-      title: Deadpool
-      year: 2016
-    sort_title: Deadpool 01
-  "Deadpool 2":
-    match:
-      title: Deadpool 2
-      year: 2018
-    sort_title: Deadpool 02
-  "Deadpool & Wolverine":
-    match:
-      title: Deadpool & Wolverine
-      year: 2024
-    sort_title: Deadpool 03
   "Dune: Part One":
     match:
       title:
@@ -281,7 +312,11 @@ metadata:
     original_title: Dune
     title: Dune (1984)
     sort_title: Dune 06
-    genre: Fan Edit
+    label: Fan Edit
+    summary: >-
+      Director David Lynch's strange and visionary sci-fi epic is given a new lease of life with this unique fan-edit by Spicediver.
+      Dune The Alternative Edition is a painstakingly created new cut that draws on the Theatrical Version (1984), the Extended Version (1988),
+      various deleted scenes, and two versions of the original soundtrack album. Presented in 2.35 anamorphic widescreen with Dolby Digital 2.0 stereo sound.
   "The Fast and the Furious":
     match:
       title: The Fast and the Furious
@@ -307,11 +342,46 @@ metadata:
       title: Fast & Furious 6
       year: 2013
     sort_title: Fast & Furious 06
-  # "Fast X":
+  "Fast X":
+    match:
+      title: Fast X
+      year: 2023
+    sort_title: Fast & Furious 10
+  # "Fast X: Part 2":
   #   match:
-  #     title: Fast X
-  #     year: 2023
-  #   sort_title: Fast & Furious 10
+  #     title: "Fast X: Part 2"
+  #     year: 2026
+  #   sort_title: Fast & Furious 11
+  "Friday the 13th":
+    match:
+      title: Friday the 13th
+      year: 1980
+    sort_title: Friday the 13th 01
+  "Friday the 13th Part 2":
+    match:
+      title:
+      - Friday the 13th Part 2
+      - "Friday the 13th: Part 2"
+      year: 1981
+    title: Friday the 13th Part 2
+    sort_title: Friday the 13th 02
+  "Friday the 13th Part III":
+    match:
+      title:
+      - Friday the 13th Part 3
+      - Friday the 13th Part III
+      - "Friday the 13th: Part 3"
+      - "Friday the 13th: Part III"
+      year: 1982
+    title: Friday the 13th Part III
+    sort_title: Friday the 13th 03
+  "Friday the 13th (2009)":
+    match:
+      title:
+      - Friday the 13th
+      - Friday the 13th (2009)
+      year: 2009
+    sort_title: Friday the 13th 2009
   "The Godfather: Part II":
     match:
       title:
@@ -430,12 +500,13 @@ metadata:
     content_rating: PG-13
     audience_rating: 8.0
     critic_rating: 6.2
-    director: Peter Jackson
     studio: New Line Cinema
     country: [New Zealand, United States of America]
+    director: Peter Jackson
     writer: [Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro, J.R.R. Tolkein]
     producer: [Carolynne Cunningham, Peter Jackson, Fran Walsh, Zane Weiner]
-    genre: [Action, Adventure, Fantasy, High Fantasy, Dragons, Sword & Sorcery, Fan Edit]
+    genre: [Action, Adventure, Fantasy]
+    label: [Fan Edit, High Fantasy, Dragons, Sword & Sorcery]
     tagline: There and Back Again
     summary: >-
       A fan edit that combines Peter Jackson's The Hobbit trilogy into a more captivating
@@ -477,6 +548,47 @@ metadata:
       year: 2003
     original_title: The Italian Job
     title: The Italian Job (2003)
+  "Jesse Stone: Night Passage":
+    match:
+      title: "Jesse Stone: Night Passage"
+      year: 2006
+    sort_title: Jesse Stone 01
+  "Jesse Stone: Stone Cold":
+    match:
+      title:
+      - Stone Cold
+      - "Jesse Stone: Stone Cold"
+      year: 2005
+    original_title: Stone Cold
+    title: "Jesse Stone: Stone Cold"
+    sort_title: Jesse Stone 02
+  "Jesse Stone: Death in Paradise":
+    match:
+      title: "Jesse Stone: Death in Paradise"
+      year: 2006
+    sort_title: Jesse Stone 03
+  # "Jesse Stone: Sea Change":
+  #   match:
+  #     title: "Jesse Stone: Sea Change"
+  #     year: 2007
+  #   sort_title: Jesse Stone 04
+  # "Jesse Stone: Thin Ice":
+  #   match:
+  #     title: "Jesse Stone: Thin Ice"
+  #     year: 2009
+  #   sort_title: Jesse Stone 05
+  # "Jesse Stone: No Remorse":
+  #   match:
+  #     title: "Jesse Stone: No Remorse"
+  #     year: 2010
+  #   sort_title: Jesse Stone 06
+  "Joyeux Noël":
+    match:
+      title:
+      - Joyeux Noël
+      - Joyeux Noel
+      year: 2005
+    title: Joyeux Noël
   "Kill Bill: Volume 1":
     match:
       title:
@@ -484,6 +596,7 @@ metadata:
       - "Kill Bill: Volume 1"
       year: 2003
     title: "Kill Bill: Volume 1"
+    sort_title: Kill Bill 11
   "Kill Bill: Volume 2":
     match:
       title:
@@ -491,21 +604,59 @@ metadata:
       - "Kill Bill: Volume 2"
       year: 2004
     title: "Kill Bill: Volume 2"
-  "The Lord of the Rings: The Fellowship of the Ring":
+    sort_title: Kill Bill 02
+  "Kill Bill: The Whole Bloody Affair":
+    match:
+      title: "Kill Bill: The Whole Bloody Affair"
+      year: 2011
+    title: "Kill Bill: The Whole Bloody Affair"
+    sort_title: Kill Bill 03
+  "Kingsman: The Secret Service":
+    match:
+      title: "Kingsman: The Secret Service"
+      year: 2015
+    sort_title: Kingsman 01
+  "Kingsman: The Golden Circle":
+    match:
+      title: "Kingsman: The Golden Circle"
+      year: 2017
+    sort_title: Kingsman 02
+  "The Lord of the Rings: The Fellowship of the Ring - Extended Edition":
     match:
       title: "The Lord of the Rings: The Fellowship of the Ring"
       year: 2001
-    sort_title: Lord of the Rings 01
-  "The Lord of the Rings: The Two Towers":
+      edition: Extended Edition
+    sort_title: Lord of the Rings 01A
+  "The Lord of the Rings: The Fellowship of the Ring - Theatrical Cut":
+    match:
+      title: "The Lord of the Rings: The Fellowship of the Ring"
+      year: 2001
+      edition: Theatrical Cut
+    sort_title: Lord of the Rings 01B
+  "The Lord of the Rings: The Two Towers - Extended Edition":
     match:
       title: "The Lord of the Rings: The Two Towers"
       year: 2002
-    sort_title: Lord of the Rings 02
-  "The Lord of the Rings: The Return of the King":
+      edition: Extended Edition
+    sort_title: Lord of the Rings 02A
+  "The Lord of the Rings: The Two Towers - Theatrical Cut":
+    match:
+      title: "The Lord of the Rings: The Two Towers"
+      year: 2002
+      edition: Theatrical Cut
+    sort_title: Lord of the Rings 02B
+  "The Lord of the Rings: The Return of the King - Extended Edition":
     match:
       title: "The Lord of the Rings: The Return of the King"
       year: 2003
-    sort_title: Lord of the Rings 03
+      edition: Extended Edition
+    sort_title: Lord of the Rings 03A
+  "The Lord of the Rings: The Return of the King - Theatrical Cut":
+    match:
+      title: "The Lord of the Rings: The Return of the King"
+      year: 2003
+      edition: Theatrical Cut
+    sort_title: Lord of the Rings 03B
   "Mad Max":
     match:
       title: Mad Max
@@ -543,6 +694,11 @@ metadata:
       year: 2016
     original_title: The Magnificent Seven
     title: The Magnificent Seven (2016)
+  "M*A*S*H":
+    match:
+      title: M*A*S*H
+      year: 1970
+    sort_title: MASH
   "Mission: Impossible":
     match:
       title: "Mission: Impossible"
@@ -667,6 +823,23 @@ metadata:
       title: Ocean's Thirteen
       year: 2007
     sort_title: Ocean's 03
+  "Once Upon a Time in America":
+    match:
+      title: Once Upon a Time in America
+      year: 1984
+    sort_title: Once Upon a Time in... 01
+  "Once Upon a Time... in Hollywood":
+    match:
+      title:
+      - Once Upon a Time in Hollywood
+      - Once Upon a Time... in Hollywood
+      year: 2019
+    sort_title: Once Upon a Time in... 02
+  "Once Upon a Time in the West":
+    match:
+      title: Once Upon a Time in the West
+      year: 1968
+    sort_title: Once Upon a Time in... 03
   "Pink Floyd: The Wall":
     match:
       title:
@@ -763,11 +936,52 @@ metadata:
       title: Rocky III
       year: 1982
     sort_title: Rocky 03
+  "Rocky IV":
+    match:
+      title: Rocky IV
+      year: 1985
+    sort_title: Rocky 04
   "Rocky Balboa":
     match:
       title: Rocky Balboa
       year: 2006
-    sort_title: Rocky 04
+    sort_title: Rocky 05
+  "Shrek":
+    match:
+      title: Shrek
+      year: 2001
+    sort_title: Shrek 01
+  "Shrek 2":
+    match:
+      title: Shrek 2
+      year: 2004
+    sort_title: Shrek 02
+  "Shrek the Third":
+    match:
+      title: Shrek the Third
+      year: 2007
+    sort_title: Shrek 03
+  "Shrek Forever After":
+    match:
+      title: Shrek Forever After
+      year: 2010
+    sort_title: Shrek 04
+  "Space Cop":
+    match:
+      title: Space Cop
+      year: 2016
+    originally_available: "2016-01-12"
+    content_rating: NR
+    audience_rating: 5.0
+    studio: Red Letter Media
+    country: United States of America
+    director: [Mike Stoklasa, Jay Bauman]
+    writer: [Mike Stoklasa, Jay Bauman, Rich Evans]
+    genre: [Comedy, Science Fiction]
+    label: [Aliens, Future, Police]
+    summary: >-
+      Space Cop is the story of a cop from the future of space who travels back in time to the present and is teamed up
+      with a cop from the past who is unfrozen in the present. Together, they must defeat evil aliens with a sinister plan.
   "Star Trek: The Motion Picture":
     match:
       title: "Star Trek: The Motion Picture"

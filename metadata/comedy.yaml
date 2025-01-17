@@ -1,22 +1,94 @@
 metadata:
+  "Adam Ray is Dr. Phil UNLEASHED":
+    match:
+      title:
+      - Adam Ray is Dr. Phil UNLEASHED
+      - Adam Ray is Dr. Phil Unleashed
+      - Adam Ray Is Dr. Phil Unleashed
+      year: 2024
+    title: Adam Ray is Dr. Phil UNLEASHED
   "Ari Shaffir: Jew":
     match:
       title:
-      - "Ari Shaffir: Jew"
       - Jew
+      - 'Ari Shaffir: Jew'
       year: 2022
-    title: "Ari Shaffir: Jew"
-  "Louis C.K.: 2017":
+    title: 'Ari Shaffir: Jew'
+  "Chris Rock: Tamborine":
     match:
       title:
-      - "Louis C.K.: 2017"
-      - "Louis C.K. 2017"
+      - Tamborine
+      - 'Chris Rock: Tamborine'
+      year: 2018
+    title: 'Chris Rock: Tamborine'
+  "Louis C.K: 2017":
+    match:
+      title:
+      - 'Louis C.K: 2017'
+      - 'Louis C.K. 2017'
+      - 'Louis C.K.: 2017'
       year: 2017
-    title: "Louis C.K.: 2017"
-  "Louis C.K.: Oh My God":
+    title: 'Louis C.K: 2017'
+  "Louis C.K. at the Dolby":
+    match:
+      title: Louis C.K. at the Dolby
+      year: 2023
+    sort_title: 'Louis C.K: at the Dolby'
+  "Louis C.K: Hilarious":
     match:
       title:
-      - "Louis C.K.: Oh My God"
-      - "Louis C.K. Oh My God"
+      - 'Louis C.K: Hilarious'
+      - 'Louis C.K.: Hilarious'
+      year: 2010
+    title: 'Louis C.K: Hilarious'
+  "Louis C.K: Live at the Beacon Theater":
+    match:
+      title:
+      - 'Louis C.K: Live at the Beacon Theater'
+      - 'Louis C.K.: Live at the Beacon Theater'
+      year: 2011
+    title: 'Louis C.K: Live at the Beacon Theater'
+  "Louis C.K: Live at the Comedy Store":
+    match:
+      title:
+      - 'Louis C.K: Live at the Comedy Store'
+      - 'Louis C.K.: Live at the Comedy Store'
+      year: 2015
+    title: 'Louis C.K: Live at the Comedy Store'
+  "Louis C.K: Oh My God":
+    match:
+      title:
+      - 'Louis C.K: Oh My God'
+      - 'Louis C.K. Oh My God'
+      - 'Louis C.K.: Oh My God'
       year: 2013
-    title: "Louis C.K.: Oh My God"
+    title: 'Louis C.K: Oh My God'
+  "Louis C.K: Shameless":
+    match:
+      title:
+      - 'Louis C.K: Shameless'
+      - 'Louis C.K.: Shameless'
+      year: 2007
+    title: 'Louis C.K: Shameless'
+  "Louis C.K: Sorry":
+    match:
+      title:
+      - 'Louis C.K: Sorry'
+      - 'Louis C.K.: Sorry'
+      year: 2021
+    title: 'Louis C.K: Sorry'
+  "Robin Williams: Live on Broadway":
+    match:
+      title:
+      - Robin WIlliams Live on Broadway
+      - Robin Williams Live on Broadway
+      - 'Robin Williams: Live on Broadway'
+      year: 2002
+    title: 'Robin Williams: Live on Broadway'
+  "Sincerely, Louis C.K.":
+    match:
+      title:
+      - Sincerely Louis C.K.
+      - Sincerely, Louis C.K.
+      year: 2020
+    title: Sincerely, Louis C.K.
