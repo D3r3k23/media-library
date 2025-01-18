@@ -1,0 +1,39 @@
+metadata:
+  "Dune: Part One":
+    match:
+      title:
+      - Dune
+      - "Dune: Part One"
+      year: 2021
+    original_title: Dune
+    title: "Dune: Part One"
+    sort_title: Dune 01
+  "Dune: Part Two":
+    match:
+      title: "Dune: Part Two"
+      year: 2024
+    sort_title: Dune 02
+  "Dune (1984)":
+    match:
+      title:
+      - Dune
+      - Dune (1984)
+      year: 1984
+    original_title: Dune
+    title: Dune (1984)
+    sort_title: Dune 05
+  "Dune (Spicediver Cut)":
+    match:
+      title:
+      - Dune
+      - Dune (1984)
+      edition_contains: Spicediver
+      year: 1984
+    original_title: Dune
+    title: Dune (1984)
+    sort_title: Dune 06
+    label: Fan Edit
+    summary: >-
+      Director David Lynch's strange and visionary sci-fi epic is given a new lease of life with this unique fan-edit by Spicediver.
+      Dune The Alternative Edition is a painstakingly created new cut that draws on the Theatrical Version (1984), the Extended Version (1988),
+      various deleted scenes, and two versions of the original soundtrack album. Presented in 2.35 anamorphic widescreen with Dolby Digital 2.0 stereo sound.

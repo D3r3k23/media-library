@@ -1,0 +1,84 @@
+metadata:
+  # Original Trilogy
+  "Star Wars: Episode IV - A New Hope":
+    match:
+      title:
+      - Star Wars
+      - A New Hope
+      - "Star Wars: Episode IV - A New Hope"
+      year: 1977
+    title: Star Wars
+    sort_title: Star Wars 01
+  "Star Wars: Episode V - The Empire Strikes Back":
+    match:
+      title:
+      - The Empire Strikes Back
+      - "Star Wars: Episode V - The Empire Strikes Back"
+      year: 1980
+    title: The Empire Strikes Back
+    sort_title: Star Wars 02
+  "Star Wars: Episode VI - Return of the Jedi":
+    match:
+      title:
+      - Return of the Jedi
+      - "Star Wars: Episode VI - Return of the Jedi"
+      year: 1983
+    title: Return of the Jedi
+    sort_title: Star Wars 03
+
+  # Prequel Trilogy
+  "Star Wars: Episode I - The Phantom Menace":
+    match:
+      title: "Star Wars: Episode I - The Phantom Menace"
+      year: 1999
+    sort_title: Star Wars 04
+  "Star Wars: Episode II - Attack of the Clones":
+    match:
+      title: "Star Wars: Episode II - Attack of the Clones"
+      year: 2002
+    sort_title: Star Wars 05
+  "Star Wars: Episode III - Revenge of the Sith":
+    match:
+      title: "Star Wars: Episode III - Revenge of the Sith"
+      year: 2005
+    sort_title: Star Wars 06
+
+  # Sequel Trilogy
+  # "Star Wars: The Force Awakens":
+  #   match:
+  #     title: "Star Wars: The Force Awakens"
+  #     year: 2015
+  #   sort_title: Star Wars 07
+  # "Star Wars: The Last Jedi":
+  #   match:
+  #     title: "Star Wars: The Last Jedi"
+  #     year: 2017
+  #   sort_title: Star Wars 08
+  # "Star Wars: The Rise of Skywalker":
+  #   match:
+  #     title: "Star Wars: The Rise of Skywalker"
+  #     year: 2019
+  #   sort_title: Star Wars 09
+
+  # Other
+  "Star Wars: The Clone Wars":
+    match:
+      title: "Star Wars: The Clone Wars"
+      year: 2008
+    sort_title: Star Wars 10
+  "Rogue One: A Star Wars Story":
+    match:
+      title:
+      - Rogue One
+      - "Star Wars: Rogue One"
+      - "Rogue One: A Star Wars Story"
+      year: 2016
+    title: "Rogue One: A Star Wars Story"
+  "Solo: A Star Wars Story":
+    match:
+      title:
+      - Solo
+      - "Star Wars: Solo"
+      - "Solo: A Star Wars Story"
+      year: 2018
+    title: "Solo: A Star Wars Story"

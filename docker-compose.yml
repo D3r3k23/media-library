@@ -1,24 +1,8 @@
 version: "3.2"
 services:
   # Media
-  # radarr-comedy: # TRaSH
-  #   container_name: radarr-comedy
-  #   image: ghcr.io/hotio/radarr:latest
-  #   restart: unless-stopped
-  #   logging:
-  #     driver: json-file
-  #   ports:
-  #     - 7878:7878
-  #   environment:
-  #     - PUID=1000
-  #     - PGID=1000
-  #     # - TZ=Europe/Amsterdam
-  #   volumes:
-  #     - /etc/localtime:/etc/localtime:ro
-  #     - /mnt/user/appdata/radarr:/config
-  #     - /mnt/user/data:/data
-  radarr-movies: # TRaSH
-    container_name: radarr-movies
+  radarr: # TRaSH
+    container_name: radarr
     image: ghcr.io/hotio/radarr:latest
     restart: unless-stopped
     logging:
@@ -33,6 +17,39 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /mnt/user/appdata/radarr:/config
       - /mnt/user/data:/data
+  # radarr-4K: # TRaSH
+  #   container_name: radarr-4K
+  #   image: ghcr.io/hotio/radarr:latest
+  #   restart: unless-stopped
+  #   logging:
+  #     driver: json-file
+  #   ports:
+  #     - 7879:7878
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     # - TZ=Europe/Amsterdam
+  #   volumes:
+  #     - /etc/localtime:/etc/localtime:ro
+  #     - /mnt/user/appdata/radarr:/config
+  #     - /mnt/user/data:/data
+  radarr-comedy: # TRaSH
+    container_name: radarr-comedy
+    image: ghcr.io/hotio/radarr:latest
+    restart: unless-stopped
+    logging:
+      driver: json-file
+    ports:
+      - 7880:7878
+    environment:
+      - PUID=1000
+      - PGID=1000
+      # - TZ=Europe/Amsterdam
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /mnt/user/appdata/radarr:/config
+      - /mnt/user/data:/data
+
   sonarr: # TRaSH
     container_name: sonarr
     image: ghcr.io/hotio/sonarr:latest
@@ -49,7 +66,26 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /mnt/user/appdata/sonarr:/config
       - /mnt/user/data:/data
+  # sonarr-4K: # TRaSH
+  #   container_name: sonarr-4K
+  #   image: ghcr.io/hotio/sonarr:latest
+  #   restart: unless-stopped
+  #   logging:
+  #     driver: json-file
+  #   ports:
+  #     - 8990:8989
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     # - TZ=Europe/Amsterdam
+  #   volumes:
+  #     - /etc/localtime:/etc/localtime:ro
+  #     - /mnt/user/appdata/sonarr:/config
+  #     - /mnt/user/data:/data
+
   # lidarr
+  # readarr
+
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
     container_name: prowlarr
@@ -148,6 +184,30 @@ services:
   #     - 8920:8920 #optional
   #     - 7359:7359/udp #optional
   #     - 1900:1900/udp #optional
+  #   restart: unless-stopped
+
+  # notifiarr: # Replace or pass in APPDATA (below).
+  #   container_name: notifiarr
+  #   hostname: notifiarr
+  #   image: golift/notifiarr
+  #   restart: unless-stopped
+  #   ports:
+  #     - "5454:5454"
+  #   volumes:
+  #     - ${APPDATA}/notifiarr:/config
+  #     - /var/run/utmp:/var/run/utmp
+  #     - /etc/machine-id:/etc/machine-id
+  # overseerr:
+  #   image: sctx/overseerr:latest
+  #   container_name: overseerr
+  #   environment:
+  #     - LOG_LEVEL=debug
+  #     - TZ=Asia/Tokyo
+  #     - PORT=5055 #optional
+  #   ports:
+  #     - 5055:5055
+  #   volumes:
+  #     - /path/to/appdata/config:/app/config
   #   restart: unless-stopped
 
   # Library

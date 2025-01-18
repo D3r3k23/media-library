@@ -1,0 +1,79 @@
+metadata:
+  # Lord of the Rings
+  "The Lord of the Rings: The Fellowship of the Ring - Extended Edition":
+    match:
+      title: "The Lord of the Rings: The Fellowship of the Ring"
+      year: 2001
+      edition: Extended Edition
+    sort_title: Lord of the Rings 01A
+  "The Lord of the Rings: The Fellowship of the Ring - Theatrical Cut":
+    match:
+      title: "The Lord of the Rings: The Fellowship of the Ring"
+      year: 2001
+      edition: Theatrical Cut
+    sort_title: Lord of the Rings 01B
+  "The Lord of the Rings: The Two Towers - Extended Edition":
+    match:
+      title: "The Lord of the Rings: The Two Towers"
+      year: 2002
+      edition: Extended Edition
+    sort_title: Lord of the Rings 02A
+  "The Lord of the Rings: The Two Towers - Theatrical Cut":
+    match:
+      title: "The Lord of the Rings: The Two Towers"
+      year: 2002
+      edition: Theatrical Cut
+    sort_title: Lord of the Rings 02B
+  "The Lord of the Rings: The Return of the King - Extended Edition":
+    match:
+      title: "The Lord of the Rings: The Return of the King"
+      year: 2003
+      edition: Extended Edition
+    sort_title: Lord of the Rings 03A
+  "The Lord of the Rings: The Return of the King - Theatrical Cut":
+    match:
+      title: "The Lord of the Rings: The Return of the King"
+      year: 2003
+      edition: Theatrical Cut
+    sort_title: Lord of the Rings 03B
+
+  # The Hobbit
+  "The Hobbit: An Unexpected Journey":
+    match:
+      title: "The Hobbit: An Unexpected Journey"
+      year: 2012
+    sort_title: Hobbit 01
+  "The Hobbit: The Desolation of Smaug":
+    match:
+      title: "The Hobbit: The Desolation of Smaug"
+      year: 2013
+    sort_title: Hobbit 02
+  "The Hobbit: The Battle of the Five Armies":
+    match:
+      title: "The Hobbit: The Battle of the Five Armies"
+      year: 2014
+    sort_title: Hobbit 03
+  "The Hobbit: M4 Book Edit":
+    match:
+      title:
+      - The Hobbit M4 Book Edit
+      - The Hobbit - M4 Book Edit
+      - "The Hobbit: M4 Book Edit"
+    title: "The Hobbit: M4 Book Edit"
+    sort_title: Hobbit 04
+    year: 2014
+    originally_available: "2014-12-30"
+    content_rating: PG-13
+    audience_rating: 8.0
+    critic_rating: 6.2
+    studio: New Line Cinema
+    country: [New Zealand, United States of America]
+    director: Peter Jackson
+    writer: [Fran Walsh, Philippa Boyens, Peter Jackson, Guillermo del Toro, J.R.R. Tolkein]
+    producer: [Carolynne Cunningham, Peter Jackson, Fran Walsh, Zane Weiner]
+    genre: [Action, Adventure, Fantasy]
+    label: [Fan Edit, High Fantasy, Dragons, Sword & Sorcery]
+    tagline: There and Back Again
+    summary: >-
+      A fan edit that combines Peter Jackson's The Hobbit trilogy into a more captivating
+      faithfully adapted single-movie experience.

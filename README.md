@@ -10,35 +10,34 @@
 - (?) Check health
 - Display people, studios, networks
 
-## Library
+## Media Library
 ```
-data
-├─── media
-│    ├─── extras
-│    │    └─── comedy, movies, music, shows
-│    ├─── library
-│    │    └─── comedy, movies, music, shows
-│    ├─── temp
-│    │    └─── comedy, movies, music, shows
-│    └─── test
-│         └─── comedy, movies, music, shows
+media
+├─── extras
+│    └─── comedy, movies, shows
+├─── library
+│    └─── audiobooks, comedy, ebooks, fan-edits, movies, movies-4K, music, music-videos, shows, videos
 ├─── recycle
-│    └─── comedy, movies, music, shows
+│    └─── audiobooks, comedy, ebooks, fan-edits, movies, movies-4K, music, music-videos, shows, videos
+├─── temp-library
+│    └─── audiobooks, comedy, ebooks, fan-edits, movies, movies-4K, music, music-videos, shows, videos
+│─── test-library
+│    └─── audiobooks, comedy, ebooks, fan-edits, movies, movies-4K, music, music-videos, shows, videos
 ├─── torrents
 │    ├─── complete
-│    │    └─── comedy, movies, music, shows
+│    │    └─── audiobooks, comedy, ebooks, fan-edits, movies, movies-4K, music, music-videos, shows, videos
 │    ├─── incomplete
 │    └─── torrent
 └─── usenet
      ├─── complete
-     │    └─── comedy, movies, music, shows
+     │    └─── audiobooks, comedy, ebooks, fan-edits, movies, movies-4K, music, music-videos, shows, videos
      ├─── incomplete
      └─── nzb
 ```
 
-## Repository Guide
+## Repository
 ```
-media-library
+library
 ├─── collexions
 │    └─── config.json
 ├─── imagemaid
@@ -58,6 +57,7 @@ media-library
 │    │    └─── studios
 │    ├─── comedy
 │    ├─── movies
+│    ├─── music
 │    ├─── overlays
 │    │    ├─── audio
 │    │    ├─── source
@@ -65,8 +65,7 @@ media-library
 │    │    └─── video
 │    ├─── playlists
 │    ├─── shows
-│    └─── watch
-│         └─── mediux
+│    └─── title-cards
 ├─── kometa
 │    ├─── collections
 │    │    ├─── basic
@@ -126,8 +125,10 @@ media-library
 │    └─── *Same as above*
 ├─── metadata
 │    ├─── comedy.yaml
-│    ├─── movies.yaml
-│    └─── shows.yaml
+│    ├─── movies
+│    │    └─── movies.yaml, ...
+│    └─── shows
+│         └─── shows.yaml, ...
 ├─── plex-trakt-sync
 │    └─── config.yaml
 ├─── posterizarr

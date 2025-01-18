@@ -1,0 +1,61 @@
+metadata:
+  "Twin Peaks":
+    match:
+      title: Twin Peaks
+      year: 1990
+    seasons:
+      1:
+        episodes:
+          1: {title: "Pilot: Northwest Passage"}
+          2: {title: "Episode 1: Traces to Nowhere"}
+          3: {title: "Episode 2: Zen, or the Skill to Catch a Killer"}
+          4: {title: "Episode 3: Rest in Pain"}
+          5: {title: "Episode 4: The One-Armed Man"}
+          6: {title: "Episode 5: Cooper's Dreams"}
+          7: {title: "Episode 6: Realization Time"}
+          8: {title: "Episode 7: The Last Evening"}
+      2:
+        episodes:
+          1: {title: "Episode 8: May the Giant Be With You"}
+          2: {title: "Episode 9: Coma"}
+          3: {title: "Episode 10: The Man Behind the Glass"}
+          4: {title: "Episode 11: Laura's Secret Diary"}
+          5: {title: "Episode 12: The Orchid's Curse"}
+          6: {title: "Episode 13: Demons"}
+          7: {title: "Episode 14: Lonely Souls"}
+          8: {title: "Episode 15: Drive with a Dead Girl"}
+          9: {title: "Episode 16: Arbitrary Law"}
+          10: {title: "Episode 17: Dispute Between Brothers"}
+          11: {title: "Episode 18: Masked Ball"}
+          12: {title: "Episode 19: The Black Widow"}
+          13: {title: "Episode 20: Checkmate"}
+          14: {title: "Episode 21: Double Play"}
+          15: {title: "Episode 22: Slaves and Masters"}
+          16: {title: "Episode 23: The Condemned Woman"}
+          17: {title: "Episode 24: Wounds and Scars"}
+          18: {title: "Episode 25: On the Wings of Love"}
+          19: {title: "Episode 26: Variations on Relations"}
+          20: {title: "Episode 27: The Path to the Black Lodge"}
+          21: {title: "Episode 28: Miss Twin Peaks"}
+          22: {title: "Episode 29: Beyond Life and Death"}
+      3:
+        title: "Season 3: The Return"
+        episodes:
+          1: {title: "Part 1: My Log Has a Massage for You"}
+          2: {title: "Part 2: The Stars Turn and a Time Presents Itself"}
+          3: {title: "Part 3: Call for Help"}
+          4: {title: "Part 4: ...Brings Back Some Memories"}
+          5: {title: "Part 5: Case Files"}
+          6: {title: "Part 6: Don't Die"}
+          7: {title: "Part 7: There's a Body All Right"}
+          8: {title: "Part 8: Gotta Light?"}
+          9: {title: "Part 9: This Is the Chair"}
+          10: {title: "Part 10: Laura Is the One"}
+          11: {title: "Part 11: There's Fire Where You Are Going"}
+          12: {title: "Part 12: Let's Rock"}
+          13: {title: "Part 13: What Story is That, Charlie?"}
+          14: {title: "Part 14: We Are Like the Dreamer"}
+          15: {title: "Part 15: There's Some Fear in Letting Go"}
+          16: {title: "Part 16: No Knock, No Doorbell"}
+          17: {title: "Part 17: The Past Dictates the Future"}
+          18: {title: "Part 18: What Is Your Name?"}

@@ -1,0 +1,71 @@
+metadata:
+  # The Original Series
+  "Star Trek: The Motion Picture":
+    match:
+      title: "Star Trek: The Motion Picture"
+      year: 1979
+    sort_title: Star Trek 01
+  "Star Trek II: The Wrath of Khan":
+    match:
+      title: "Star Trek II: The Wrath of Khan"
+      year: 1982
+    sort_title: Star Trek 02
+  "Star Trek III: The Search for Spock":
+    match:
+      title: "Star Trek III: The Search for Spock"
+      year: 1984
+    sort_title: Star Trek 03
+  "Star Trek IV: The Voyage Home":
+    match:
+      title: "Star Trek IV: The Voyage Home"
+      year: 1986
+    sort_title: Star Trek 04
+  "Star Trek V: The Final Frontier":
+    match:
+      title: "Star Trek V: The Final Frontier"
+      year: 1989
+    sort_title: Star Trek 05
+  "Star Trek VI: The Undiscovered Country":
+    match:
+      title: "Star Trek VI: The Undiscovered Country"
+      year: 1991
+    sort_title: Star Trek 06
+
+  # The Next Generation
+  "Star Trek: Generations":
+    match:
+      title: "Star Trek: Generations"
+      year: 1994
+    sort_title: Star Trek 07
+  "Star Trek: First Contact":
+    match:
+      title: "Star Trek: First Contact"
+      year: 1996
+    sort_title: Star Trek 08
+  "Star Trek: Insurrection":
+    match:
+      title: "Star Trek: Insurrection"
+      year: 1998
+    sort_title: Star Trek 09
+  "Star Trek: Nemesis":
+    match:
+      title: "Star Trek: Nemesis"
+      year: 2002
+    sort_title: Star Trek 10
+
+  # The Kelvin Timeline
+  # "Star Trek":
+  #   match:
+  #     title: Star Trek
+  #     year: 2009
+  #   sort_title: Star Trek 11
+  # "Star Trek Into Darkness":
+  #   match:
+  #     title: "Star Trek Into Darkness"
+  #     year: 2013
+  #   sort_title: Star Trek 12
+  # "Star Trek Beyond":
+  #   match:
+  #     title: "Star Trek Beyond"
+  #     year: 2016
+  #   sort_title: Star Trek 13
